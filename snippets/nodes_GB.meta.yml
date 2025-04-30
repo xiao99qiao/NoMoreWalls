@@ -1,38 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: 02b4394c-be00-43fc-9c5e-be5af78a4c5f
+  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 02b4394c-be00-43fc-9c5e-be5af78a4c5f
+  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港 01 | 1x HK
-  password: 79bc969a-8e22-465f-92bb-9d695681e8cc
+  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 79bc969a-8e22-465f-92bb-9d695681e8cc
+  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - flow: ''
   mode: ''
-  name: 2|🇬🇧1 |  5.4MB/s
+  name: 2|🇬🇧1 |  4.3MB/s
   network: ws
   port: 443
-  server: 45.8.211.230
+  server: 188.42.88.45
   servername: CxNiMjJz.cAfUnEaR.InFo
   tls: true
   type: vless
@@ -42,21 +42,9 @@ proxies:
     headers:
       Host: CxNiMjJz.cAfUnEaR.InFo
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧2 |  4.6MB/s
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - flow: ''
   mode: ''
-  name: 2|🇬🇧3 |  5.7MB/s
+  name: 2|🇬🇧2 |  4.5MB/s
   network: ws
   port: 443
   server: 45.142.120.97
@@ -71,10 +59,10 @@ proxies:
     path: /
 - flow: ''
   mode: ''
-  name: 2|🇬🇧4 |  1.4MB/s
+  name: 2|🇬🇧3 |  4.4MB/s
   network: ws
   port: 443
-  server: 188.42.88.45
+  server: 45.8.211.230
   servername: CxNiMjJz.cAfUnEaR.InFo
   tls: true
   type: vless
@@ -86,7 +74,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧5 |  5.4MB/s
+  name: 2|🇬🇧4 |  3.1MB/s
   network: tcp
   port: 49699
   reality-opts:
@@ -98,7 +86,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - flow: ''
   mode: ''
-  name: 2|🇬🇧6 |  5.2MB/s
+  name: 2|🇬🇧5 |  2.2MB/s
   network: ws
   port: 443
   server: 45.131.6.160
