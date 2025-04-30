@@ -1,56 +1,67 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: e7995278-cfea-46b2-9f31-ebb3d386bbde
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: e7995278-cfea-46b2-9f31-ebb3d386bbde
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: e7995278-cfea-46b2-9f31-ebb3d386bbde
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 758df26f-9725-48c3-9de7-f231f19cbdb2
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 4a1df482-334f-425f-8b73-0914c690798a
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 758df26f-9725-48c3-9de7-f231f19cbdb2
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 4a1df482-334f-425f-8b73-0914c690798a
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 758df26f-9725-48c3-9de7-f231f19cbdb2
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 4a1df482-334f-425f-8b73-0914c690798a
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇸🇬1 |  1.1MB/s
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21170
-  server: 125.94.40.162
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 3b047f42-84e5-4e2d-b8a1-1ddd664032a1
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 3b047f42-84e5-4e2d-b8a1-1ddd664032a1
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 3b047f42-84e5-4e2d-b8a1-1ddd664032a1
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇸🇬2 |  1.5MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
   skip-cert-verify: true
-  sni: k39.tudou211.com
+  sni: gysz0000.dynu.net
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 2|🇸🇬2 |  5.9MB/s
+  name: 2|🇸🇬3 |  1.1MB/s
+  port: 43121
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 2|🇸🇬4 |  6.4MB/s
   network: tcp
   port: 17231
   server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
@@ -61,13 +72,6 @@ proxies:
   ws-headers:
     Host: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
   ws-path: /
-- name: 2|🇸🇬5 |  6.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
-  skip-cert-verify: true
-  sni: gysz0000.dynu.net
-  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
