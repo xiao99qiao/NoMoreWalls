@@ -1,22 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: fa414a6c-26a8-49d4-8c55-f5f53dbccbce
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 1|🇨🇦1 |  1.6MB/s
-  password: 683d29d7-a3b8-42c5-9a9b-e21812e5f8b6
-  port: 34016
-  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: c3336a73-45f4-406a-bf42-da46d8b92548
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: bebaa925-1983-4741-9e28-af17903e35f3
   port: 36441
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦1 |  2.2MB/s
+  password: VekzIVJwbk1f
+  port: 443
+  server: 147.45.177.65
+  tfo: false
   type: ss
   udp: true
