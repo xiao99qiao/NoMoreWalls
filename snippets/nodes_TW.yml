@@ -1,25 +1,82 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: bebaa925-1983-4741-9e28-af17903e35f3
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: b6ec23b8-1879-4059-afe1-10e90334e064
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: b6ec23b8-1879-4059-afe1-10e90334e064
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: b6ec23b8-1879-4059-afe1-10e90334e064
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: bebaa925-1983-4741-9e28-af17903e35f3
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: bebaa925-1983-4741-9e28-af17903e35f3
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇹🇼6 |  5.9MB/s
+  port: 3687
+  server: 846f3279-submo0-syap8d-dbk8.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
+- client-fingerprint: chrome
+  name: 2|🇹🇼16 |  1.4MB/s
+  password: ef23ddd0-14c5-39c2-9880-af55ce892363
+  port: 51121
+  server: t4.qifei.app
+  skip-cert-verify: true
+  sni: t4.qifei.app
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇹🇼19 |  5.5MB/s
+  port: 3687
+  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇹🇼20 |  1.6MB/s
+  port: 3687
+  server: e8defb00-su7xc0-tf3uue-cum1.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
