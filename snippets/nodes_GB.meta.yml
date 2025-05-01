@@ -1,28 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: b6ec23b8-1879-4059-afe1-10e90334e064
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
-  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
+  password: c05c671a-a6c1-4b4c-a47f-eb5952fb403a
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
+  password: c05c671a-a6c1-4b4c-a47f-eb5952fb403a
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧1 |  6.0MB/s
+  network: tcp
+  port: 32055
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧2 |  1.4MB/s
+  network: tcp
+  port: 49699
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: vip.jddns0202.top
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - flow: ''
   mode: ''
-  name: 2|🇬🇧1 |  5.9MB/s
+  name: 2|🇬🇧3 |  3.5MB/s
+  network: ws
+  port: 443
+  server: 45.142.120.97
+  servername: CxNiMjJz.cAfUnEaR.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+    path: /
+- flow: ''
+  mode: ''
+  name: 2|🇬🇧4 |  4.5MB/s
   network: ws
   port: 443
   server: 45.8.211.230
@@ -35,66 +67,36 @@ proxies:
     headers:
       Host: CxNiMjJz.cAfUnEaR.InFo
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧2 |  5.2MB/s
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
+- flow: ''
+  mode: ''
+  name: 2|🇬🇧5 |  5.0MB/s
+  network: ws
+  port: 443
+  server: 188.42.88.45
+  servername: CxNiMjJz.cAfUnEaR.InFo
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+    path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧3 |  5.2MB/s
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧6 |  3.5MB/s
   network: tcp
-  port: 49699
+  port: 443
   reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
-  servername: www.amazon.com
+    public-key: TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c
+    short-id: 7e39db0c
+  server: V2RayMizban.iranigamepars.ir
+  servername: tgju.org
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧4 |  2.0MB/s
-  network: tcp
-  port: 50123
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: 84.32.41.200
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧5 |  5.4MB/s
-  network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧6 |  3.9MB/s
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: false
+  uuid: 4c41dd88-6632-4c7a-8dbb-e276bf78b357
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443

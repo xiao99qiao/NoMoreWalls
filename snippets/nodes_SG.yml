@@ -1,116 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: b6ec23b8-1879-4059-afe1-10e90334e064
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: b6ec23b8-1879-4059-afe1-10e90334e064
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: b6ec23b8-1879-4059-afe1-10e90334e064
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
+  password: c05c671a-a6c1-4b4c-a47f-eb5952fb403a
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
+  password: c05c671a-a6c1-4b4c-a47f-eb5952fb403a
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
+  password: c05c671a-a6c1-4b4c-a47f-eb5952fb403a
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬2 |  2.7MB/s
-  port: 4135
-  server: db462a5d-sudhc0-syoixd-bm0y.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: fb8812ae-dcb5-11ef-a57d-f23c9313b177
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬4 |  1.3MB/s
-  port: 4137
-  server: 120.233.64.140
-  tls: false
-  type: vmess
-  uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬5 |  1.0MB/s
-  port: 4137
-  server: a38c20dc-sudhc0-svm3vt-czv5.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬6 |  1.7MB/s
-  port: 3683
-  server: 183.240.179.191
-  tls: false
-  type: vmess
-  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬7 |  6.0MB/s
-  network: tcp
-  port: 17231
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-  ws-headers:
-    Host: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬8 |  3.3MB/s
-  port: 3683
-  server: 0a0ca27f-su7b40-tf38me-cum1.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬9 |  3.0MB/s
-  port: 4137
-  server: d0f55eaf-submo0-t0t1z3-1qgn.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 564b440a-700f-11ee-a90c-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬10 |  1.8MB/s
+  name: 2|🇸🇬2 |  1.3MB/s
   network: tcp
   port: 17231
   server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
@@ -121,51 +33,6 @@ proxies:
   ws-headers:
     Host: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
   ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬11 |  2.9MB/s
-  port: 4135
-  server: 55ae775c-sukw00-sw1e10-7yd9.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬12 |  1.6MB/s
-  network: tcp
-  port: 17231
-  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬13 |  2.3MB/s
-  port: 3683
-  server: fc1bb096-suh6o0-svqrrs-4cwg.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬14 |  1.2MB/s
-  port: 17231
-  server: 9e083647-sv2sg0-t35mzx-1pp0x.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬16 |  1.8MB/s
-  port: 4135
-  server: e0ee2db1-submo0-su9w3p-4mce.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

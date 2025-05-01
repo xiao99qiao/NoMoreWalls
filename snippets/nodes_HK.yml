@@ -1,28 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: b6ec23b8-1879-4059-afe1-10e90334e064
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: b6ec23b8-1879-4059-afe1-10e90334e064
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
+  password: c05c671a-a6c1-4b4c-a47f-eb5952fb403a
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 328638e7-d0a0-47b1-a7ce-c6c451ba66db
+  password: c05c671a-a6c1-4b4c-a47f-eb5952fb403a
   port: 36145
   server: free.2weradf.xyz
   type: ss
@@ -30,88 +16,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2|🇭🇰5 |  1.0MB/s
-  port: 4136
-  server: 8020e29c-submo0-t0t1z3-1qgn.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 564b440a-700f-11ee-a90c-f23c9313b177
-- alterId: 2
-  cipher: auto
-  name: 2|🇭🇰9 |  1.3MB/s
-  network: ws
-  port: 8080
-  server: c027a484-svlb40-szcku7-153sp.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 31ede2d8-3f22-11ef-b023-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: c027a484-svlb40-szcku7-153sp.hk3.p5pv.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇭🇰11 |  2.0MB/s
+  name: 2|🇭🇰2 |  1.3MB/s
   port: 15228
-  server: 34cabfa3-surog0-tc9wl2-py5w.cm.plebai.net
+  server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
-- client-fingerprint: chrome
-  name: 2|🇭🇰12 |  4.8MB/s
-  password: b6200af42ccadea353f5b5856dd20d70
-  port: 39001
-  server: 120.233.128.68
-  skip-cert-verify: true
-  sni: 120.233.128.68
-  type: trojan
+  uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
 - alterId: 2
   cipher: auto
-  name: 2|🇭🇰13 |  3.0MB/s
-  network: ws
-  port: 8080
-  server: 36c38fee-svdwg0-swd5ff-f1v1.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇭🇰16 |  1.1MB/s
-  network: ws
-  port: 455
-  server: 3510b612-svlxc0-sw531k-aqho.hkt.east.wctype.com
-  tls: false
-  type: vmess
-  uuid: bca0b2c8-1908-11f0-afbe-f23c932f2c32
-  ws-opts:
-    headers:
-      Host: a605477178.m.ctrip.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 2|🇭🇰17 |  2.2MB/s
-  network: ws
-  port: 8102
-  server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 2|🇭🇰19 |  4.0MB/s
+  name: 2|🇭🇰8 |  1.9MB/s
   network: ws
   port: 8080
   server: c027a484-svlb40-szcku7-153sp.hk3.p5pv.com
@@ -124,17 +39,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰20 |  3.6MB/s
+  ip-version: dual
+  name: 2|🇭🇰9 |  1.2MB/s
   network: tcp
   port: 15229
-  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
-  skip-cert-verify: true
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
   tls: false
   type: vmess
   uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
-  ws-headers:
-    Host: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
-  ws-path: /
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
