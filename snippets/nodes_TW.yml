@@ -1,64 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: f963dd79-71b6-44a4-b407-adffb02e59d9
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: f963dd79-71b6-44a4-b407-adffb02e59d9
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: f963dd79-71b6-44a4-b407-adffb02e59d9
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼台湾 01 | 1x TW
-  password: 1177ac05-631e-4cf2-b4ca-d84fa5687049
+  password: 6c0cfc95-7c29-4c83-8c97-fa97f575b32f
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼台湾 02 | 1x TW
-  password: 1177ac05-631e-4cf2-b4ca-d84fa5687049
+  password: 6c0cfc95-7c29-4c83-8c97-fa97f575b32f
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼台湾 03 | 1x TW
-  password: 1177ac05-631e-4cf2-b4ca-d84fa5687049
+  password: 6c0cfc95-7c29-4c83-8c97-fa97f575b32f
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 2|🇹🇼1 |  6.0MB/s
-  password: feb203c3-4b25-4961-be32-7e842d7b5dab
-  port: 14001
-  server: japan.cnix.asia
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 01 | 1x TW
+  password: d3126284-06ad-4826-ab0a-348b219453b0
+  port: 36241
+  server: free.2weradf.xyz
   type: ss
-- cipher: aes-128-gcm
-  name: 2|🇹🇼2 |  2.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 02 | 1x TW
+  password: d3126284-06ad-4826-ab0a-348b219453b0
+  port: 36243
+  server: free.2weradf.xyz
   type: ss
-- cipher: aes-128-gcm
-  name: 2|🇹🇼4 |  3.6MB/s
-  password: feb203c3-4b25-4961-be32-7e842d7b5dab
-  port: 14002
-  server: japan.cnix.asia
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 03 | 1x TW
+  password: d3126284-06ad-4826-ab0a-348b219453b0
+  port: 36245
+  server: free.2weradf.xyz
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
