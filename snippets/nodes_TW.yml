@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
+  password: e82736b7-eb24-4a67-bfe5-1bac599a2c1d
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
+  password: e82736b7-eb24-4a67-bfe5-1bac599a2c1d
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
+  password: e82736b7-eb24-4a67-bfe5-1bac599a2c1d
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 086c27ae-5ed9-41ba-80c1-37c4f5441243
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 086c27ae-5ed9-41ba-80c1-37c4f5441243
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 086c27ae-5ed9-41ba-80c1-37c4f5441243
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇹🇼2 |  5.1MB/s
+  name: 2|🇹🇼2 |  5.1MB/s
   network: tcp
   port: 3687
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
@@ -33,27 +54,6 @@ proxies:
   ws-headers:
     Host: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: 1c430991-57aa-43ef-9104-8854dd2c96ef
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: 1c430991-57aa-43ef-9104-8854dd2c96ef
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: 1c430991-57aa-43ef-9104-8854dd2c96ef
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

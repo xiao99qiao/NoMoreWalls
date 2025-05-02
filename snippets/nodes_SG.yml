@@ -1,55 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
+  password: e82736b7-eb24-4a67-bfe5-1bac599a2c1d
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
+  password: e82736b7-eb24-4a67-bfe5-1bac599a2c1d
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 97c0513f-ee90-4147-8ef5-1214d3781c35
+  password: e82736b7-eb24-4a67-bfe5-1bac599a2c1d
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 086c27ae-5ed9-41ba-80c1-37c4f5441243
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 086c27ae-5ed9-41ba-80c1-37c4f5441243
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 086c27ae-5ed9-41ba-80c1-37c4f5441243
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬2 |  2.7MB/s
+  name: 2|🇸🇬2 |  2.7MB/s
   network: tcp
   port: 17231
   server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 1c430991-57aa-43ef-9104-8854dd2c96ef
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 1c430991-57aa-43ef-9104-8854dd2c96ef
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: 1c430991-57aa-43ef-9104-8854dd2c96ef
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
