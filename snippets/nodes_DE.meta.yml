@@ -1,15 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 17d4ccd2-6227-405f-9e9f-3d332595b611
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪1 |  4.2MB/s
+  name: 0|🇩🇪1 |  4.2MB/s
   network: ''
   port: 443
   server: 204.10.194.78
@@ -18,7 +11,7 @@ proxies:
   type: vless
   udp: false
   uuid: 7a12ccb8-c431-4cc0-ace9-a994cc4b2ca7
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 8|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -28,9 +21,16 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 710c043c-84f0-4f87-9891-d18d5c4b82dd
+  name: 13|🇩🇪德国 01 | 1x DE
+  password: faa2f71b-04d3-480d-af25-4b7ab1023e77
   port: 31471
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
