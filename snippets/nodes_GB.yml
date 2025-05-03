@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇭🇰香港 01 | 1x HK
-  password: faa2f71b-04d3-480d-af25-4b7ab1023e77
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: aec03bff-9397-4a06-b486-0ab59897eab4
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇬🇧英国家宽 01 | 1x UK
-  password: faa2f71b-04d3-480d-af25-4b7ab1023e77
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: aec03bff-9397-4a06-b486-0ab59897eab4
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 49b19395-053e-4882-8afb-5a0e1348f1cc
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 49b19395-053e-4882-8afb-5a0e1348f1cc
   port: 36271
   server: free.2weradf.xyz
   type: ss
