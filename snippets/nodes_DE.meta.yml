@@ -1,22 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: aec03bff-9397-4a06-b486-0ab59897eab4
+  password: 92875b65-a28e-4db5-887a-08a2d7deae9c
   port: 31471
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 49b19395-053e-4882-8afb-5a0e1348f1cc
-  port: 36471
-  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 2|🇩🇪1 |  4.2MB/s
+  name: 1|🇩🇪1 |  4.2MB/s
   network: ''
   port: 443
   server: 204.10.194.78
@@ -25,7 +18,14 @@ proxies:
   type: vless
   udp: false
   uuid: 7a12ccb8-c431-4cc0-ace9-a994cc4b2ca7
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: d893b373-10dc-455f-b111-91d1188a0287
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -34,32 +34,3 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 14|DE_speednode_0064
-  network: ws
-  port: 80
-  server: 140.99.233.58
-  servername: feng.ipy29c99.workers.dev
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 046da250-d5ef-4867-9095-302477d54d20
-  ws-opts:
-    headers:
-      Host: feng.ipy29c99.workers.dev
-    path: /Telegram@WangCai2/?ed=2048
-- name: 14|DE_speednode_0065
-  network: ws
-  port: 443
-  server: 95.164.47.60
-  servername: de02.abvpn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 588f094b-431b-422c-b80b-007945037072
-  ws-opts:
-    headers:
-      Host: de02.abvpn.ru
-    path: /websocket
