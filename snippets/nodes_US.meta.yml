@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 56f93a22-c8a2-4f2b-bbd9-1c9efdd9da47
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 56f93a22-c8a2-4f2b-bbd9-1c9efdd9da47
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 56f93a22-c8a2-4f2b-bbd9-1c9efdd9da47
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 1fbf762e-8569-4894-b934-a1fdd27351c1
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 574ced41-75b6-4063-aaae-3d635958966d
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 1fbf762e-8569-4894-b934-a1fdd27351c1
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 574ced41-75b6-4063-aaae-3d635958966d
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 1fbf762e-8569-4894-b934-a1fdd27351c1
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 574ced41-75b6-4063-aaae-3d635958966d
   port: 31215
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 80ac6a2b-0bb5-4729-96ce-3a5f5e786777
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 80ac6a2b-0bb5-4729-96ce-3a5f5e786777
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 80ac6a2b-0bb5-4729-96ce-3a5f5e786777
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 2,10|Mci-@V2ray_Raha-4
