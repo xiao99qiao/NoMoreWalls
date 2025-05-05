@@ -1,55 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 2afb28af-2035-44b6-8378-ab65bade0d8b
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: d1b00f03-f12f-450c-ae89-b6172f35ae84
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: d1b00f03-f12f-450c-ae89-b6172f35ae84
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: d1b00f03-f12f-450c-ae89-b6172f35ae84
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 684df891-5cec-4280-83f8-ab150be5802b
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 2afb28af-2035-44b6-8378-ab65bade0d8b
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 684df891-5cec-4280-83f8-ab150be5802b
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 2afb28af-2035-44b6-8378-ab65bade0d8b
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 684df891-5cec-4280-83f8-ab150be5802b
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬2 |  2.7MB/s
+  name: 2|🇸🇬2 |  2.7MB/s
   network: tcp
   port: 17231
   server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 3bddb473-d50b-4bac-ab30-b30f32edf3ea
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 3bddb473-d50b-4bac-ab30-b30f32edf3ea
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: 3bddb473-d50b-4bac-ab30-b30f32edf3ea
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -84,7 +84,7 @@ proxies:
   server: 13.114.211.183
   tfo: false
   type: ss
-- name: 14|SG_speednode_0021
+- name: 14|SG_speednode_0015
   network: ws
   password: Aimer
   port: 8443
