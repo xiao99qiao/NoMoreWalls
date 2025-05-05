@@ -1,55 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: f23ef097-30d4-418c-8001-31983ec4d2e4
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 6acbe6d1-1b97-472b-8fa3-c6dcb8f472b1
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 6acbe6d1-1b97-472b-8fa3-c6dcb8f472b1
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 6acbe6d1-1b97-472b-8fa3-c6dcb8f472b1
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 6656d8f7-556e-4f2b-b191-64fabf8a4a3a
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: f23ef097-30d4-418c-8001-31983ec4d2e4
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 6656d8f7-556e-4f2b-b191-64fabf8a4a3a
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: f23ef097-30d4-418c-8001-31983ec4d2e4
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 6656d8f7-556e-4f2b-b191-64fabf8a4a3a
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬2 |  2.7MB/s
+  name: 2|🇸🇬2 |  2.7MB/s
   network: tcp
   port: 17231
   server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: a6acae23-d066-45cb-8129-9e91a3f18cf4
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: a6acae23-d066-45cb-8129-9e91a3f18cf4
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: a6acae23-d066-45cb-8129-9e91a3f18cf4
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

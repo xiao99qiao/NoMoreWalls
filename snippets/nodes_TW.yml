@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: f23ef097-30d4-418c-8001-31983ec4d2e4
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 6acbe6d1-1b97-472b-8fa3-c6dcb8f472b1
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 6acbe6d1-1b97-472b-8fa3-c6dcb8f472b1
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 6acbe6d1-1b97-472b-8fa3-c6dcb8f472b1
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 6656d8f7-556e-4f2b-b191-64fabf8a4a3a
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: f23ef097-30d4-418c-8001-31983ec4d2e4
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 6656d8f7-556e-4f2b-b191-64fabf8a4a3a
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: f23ef097-30d4-418c-8001-31983ec4d2e4
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 6656d8f7-556e-4f2b-b191-64fabf8a4a3a
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇹🇼2 |  5.1MB/s
+  name: 2|🇹🇼2 |  5.1MB/s
   network: tcp
   port: 3687
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
@@ -33,27 +54,6 @@ proxies:
   ws-headers:
     Host: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: a6acae23-d066-45cb-8129-9e91a3f18cf4
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: a6acae23-d066-45cb-8129-9e91a3f18cf4
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: a6acae23-d066-45cb-8129-9e91a3f18cf4
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
