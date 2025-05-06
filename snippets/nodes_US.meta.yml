@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 6fd62145-cfd7-44ce-b869-56dde7afaad4
-  port: 36211
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: cd3ecc0a-4635-402f-b8c0-142bb5e95d9d
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 6fd62145-cfd7-44ce-b869-56dde7afaad4
-  port: 36213
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: cd3ecc0a-4635-402f-b8c0-142bb5e95d9d
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 6fd62145-cfd7-44ce-b869-56dde7afaad4
-  port: 36215
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: cd3ecc0a-4635-402f-b8c0-142bb5e95d9d
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 1,9|Mci-@V2ray_Raha-4
@@ -1193,25 +1193,25 @@ proxies:
   client-fingerprint: chrome
   name: 11,12|美国|@ripaojiedian
   network: ws
-  port: '8004'
-  server: 59.42.247.189
-  servername: ''
+  port: '10501'
+  server: ssm.pimax.com
+  servername: ssm.pimax.com
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 64841534-0e32-452e-a038-c443fe1fdef0
+  uuid: 68876abb-0e56-4beb-b959-34a4bc57a6a2
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /nmkj
+      Host: ssm.pimax.com
+    path: /fkgevws
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505041454917-UsWiINM30i.download.microsoft.com
+    host: 202505051364196-DdoXJ0PjId.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1561,23 +1561,23 @@ proxies:
       Host: free.pranithsandaruwan.cfd
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 7f4c4ca2-c863-4c46-a660-be36a203f2bb
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 278a0404-1803-421c-b480-257d9ee8c7cb
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 7f4c4ca2-c863-4c46-a660-be36a203f2bb
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 278a0404-1803-421c-b480-257d9ee8c7cb
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 7f4c4ca2-c863-4c46-a660-be36a203f2bb
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 278a0404-1803-421c-b480-257d9ee8c7cb
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
