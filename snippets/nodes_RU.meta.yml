@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: 428ad397-a0a0-4487-962c-25db9db2435c
+  password: 3dbfd612-9a2e-4ddb-b15d-a69988490f0e
   port: 36511
   server: free.2weradf.xyz
   type: ss
@@ -72,8 +72,8 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺俄罗斯 01 | 1x RU
-  password: a8075afb-0b4d-4455-8b2e-42d821015622
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: d80ff2c3-5081-4021-9747-67e917893b93
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
