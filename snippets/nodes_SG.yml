@@ -1,31 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: f5fb488c-7ae2-4b9e-87b1-8e7ab88b1789
-  port: 36171
-  server: free.2weradf.xyz
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: d179e08f-76ac-4eb2-979c-716fe1703036
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: f5fb488c-7ae2-4b9e-87b1-8e7ab88b1789
-  port: 36173
-  server: free.2weradf.xyz
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: d179e08f-76ac-4eb2-979c-716fe1703036
+  port: 31173
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬2 |  2.7MB/s
-  network: tcp
-  port: 17231
-  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: d179e08f-76ac-4eb2-979c-716fe1703036
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 11,12|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -42,7 +40,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
+  name: 11,12|新加坡2|@ripaojiedian
   network: ws
   port: '35111'
   server: sg1.g2.moonbase.life
@@ -58,7 +56,7 @@ proxies:
     path: /home
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: awsps0501
   port: 443
   server: 18.183.225.74

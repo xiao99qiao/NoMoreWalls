@@ -1,34 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: f5fb488c-7ae2-4b9e-87b1-8e7ab88b1789
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: d179e08f-76ac-4eb2-979c-716fe1703036
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: f5fb488c-7ae2-4b9e-87b1-8e7ab88b1789
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧1 |  3.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c
-    short-id: 7e39db0c
-  server: V2RayMizban.iranigamepars.ir
-  servername: tgju.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4c41dd88-6632-4c7a-8dbb-e276bf78b357
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -38,7 +16,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 14|GB_speednode_0011
+  name: 13|GB_speednode_0011
   port: 443
   reality-opts:
     public-key: b5WuWodd3tB9cHWUJuoEFNvgYVOcLuDyjaxHy70umU4
@@ -50,7 +28,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
-- name: 14|GB_speednode_0012
+- name: 13|GB_speednode_0012
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: london01.sqx001.com
@@ -61,7 +39,7 @@ proxies:
   username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|GB_speednode_0013
+  name: 13|GB_speednode_0013
   port: 8440
   reality-opts:
     public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
@@ -72,7 +50,7 @@ proxies:
   type: vless
   udp: true
   uuid: 97dda572-7ff0-4609-8388-c82be57bc6a9
-- name: 14|GB_speednode_0014
+- name: 13|GB_speednode_0014
   network: ws
   port: 443
   server: 35.178.235.225
@@ -86,7 +64,7 @@ proxies:
     headers:
       Host: uk.rtot.me
     path: /bing
-- name: 14|GB_speednode_0015
+- name: 13|GB_speednode_0015
   network: ws
   port: 81
   server: 95.164.18.132
