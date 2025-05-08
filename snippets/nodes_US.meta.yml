@@ -1,50 +1,66 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 91847820-7555-4647-95a5-197a91783248
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 91847820-7555-4647-95a5-197a91783248
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 91847820-7555-4647-95a5-197a91783248
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 47b96415-88a4-4965-96f8-52ee6ba2f05f
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: f77d7601-8c86-405e-8aee-d5a4328c134c
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 47b96415-88a4-4965-96f8-52ee6ba2f05f
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: f77d7601-8c86-405e-8aee-d5a4328c134c
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 47b96415-88a4-4965-96f8-52ee6ba2f05f
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: f77d7601-8c86-405e-8aee-d5a4328c134c
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: '9,11|Channel id: @ShadowProxy66рҹҮә... #2'
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 1eae14fc-1b87-4cd3-942c-38689923d48a
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 1eae14fc-1b87-4cd3-942c-38689923d48a
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 1eae14fc-1b87-4cd3-942c-38689923d48a
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: '9,11|Channel id: @ShadowProxy66🇺🇸 #3'
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.207.162
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #1'
+  password: 238c7704-944d-40cd-a1cf-fb775d51ac54
+  port: 21042
+  server: 164.152.33.5
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #2'
+  password: 87f055ba
+  port: 60000
+  server: 141.11.89.172
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
