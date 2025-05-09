@@ -1,27 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: ea7e1196-fde7-4c58-9eb4-594d73b1a2a3
+  password: 81d50bff-feca-4cd9-a214-46c92952ec56
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: ea7e1196-fde7-4c58-9eb4-594d73b1a2a3
+  password: 81d50bff-feca-4cd9-a214-46c92952ec56
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: ea7e1196-fde7-4c58-9eb4-594d73b1a2a3
+  password: 81d50bff-feca-4cd9-a214-46c92952ec56
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 1,11,13|CN_speednode_0004
+  name: 11,13|CN_speednode_0004
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   port: 3462
   server: a10.taipeicitygovernment.kyiv.ua
@@ -29,39 +29,23 @@ proxies:
   sni: 45.32.28.232
   type: trojan
   udp: true
-- name: 1,13|CN_speednode_0007
-  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
-  port: 3462
-  server: a03.taipeicitygovernment.cn.ua
-  skip-cert-verify: false
-  sni: 45.32.28.232
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 1|🇹🇼5 |  6.2MB/s|11%|Youtube|Ope...
-  password: 887f01da-5b52-4dff-a80f-efe3380ac35f
-  port: 50555
-  server: chiyu.myfczy169.top
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾 01 | 1x TW
-  password: 26bc2fe2-ae82-4250-9122-94275d682bf7
+  password: 52526c2f-6548-4cdc-87bc-72735896f023
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾 02 | 1x TW
-  password: 26bc2fe2-ae82-4250-9122-94275d682bf7
+  password: 52526c2f-6548-4cdc-87bc-72735896f023
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾 03 | 1x TW
-  password: 26bc2fe2-ae82-4250-9122-94275d682bf7
+  password: 52526c2f-6548-4cdc-87bc-72735896f023
   port: 36245
   server: free.2weradf.xyz
   type: ss
