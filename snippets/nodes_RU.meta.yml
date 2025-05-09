@@ -1,26 +1,24 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: b9ac8097-abac-4dfe-8806-1d61e5025d06
-  port: 36511
-  server: free.2weradf.xyz
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: ea7e1196-fde7-4c58-9eb4-594d73b1a2a3
+  port: 31511
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 1|🇷🇺1 |  1.7MB/s|0%|Youtube
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: stpetersburg.sqx001.com
+  fast-open: true
+  name: 1|🇷🇺1 |  2.0MB/s|50%|Youtube
+  password: dongtaiwang.com
+  port: 10011
+  server: hy2.694463.xyz
   skip-cert-verify: true
-  sni: stpetersburg.sqx001.com
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
+  sni: www.bing.com
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺俄罗斯 01 | 1x RU
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 14|🇷🇺 俄罗斯 01 | 1x RU
+  password: 26bc2fe2-ae82-4250-9122-94275d682bf7
+  port: 36511
+  server: free.2weradf.xyz
   type: ss
   udp: true
