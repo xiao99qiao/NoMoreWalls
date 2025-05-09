@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 8ba328a8-c9c6-43d8-b4e8-7807c97bd850
+  password: 2045ad00-5f17-431a-9ccc-1c6ce2fbaeb8
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 8ba328a8-c9c6-43d8-b4e8-7807c97bd850
+  password: 2045ad00-5f17-431a-9ccc-1c6ce2fbaeb8
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 8ba328a8-c9c6-43d8-b4e8-7807c97bd850
+  password: 2045ad00-5f17-431a-9ccc-1c6ce2fbaeb8
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: d93f59f8-5180-43b3-8a16-6074432d2b5b
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: d93f59f8-5180-43b3-8a16-6074432d2b5b
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: d93f59f8-5180-43b3-8a16-6074432d2b5b
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
   port: 36245
   server: free.2weradf.xyz
   type: ss
@@ -44,41 +44,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 2|🇹🇼1 |  1.1MB/s|0%|Disney|Opena...
-  network: ws
-  password: Aimer
-  port: '2096'
-  server: 167.68.4.10
-  skip-cert-verify: false
-  sni: epccj.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  name: 2|🇹🇼3 |  1.3MB/s|0%|Disney|Opena...
-  network: ws
-  password: Aimer
-  port: '443'
-  server: 209.208.227.79
-  skip-cert-verify: false
-  sni: epccj.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  name: 2|🇹🇼4 |  1.8MB/s|0%|Netflix|Disn...
+  name: 2|🇹🇼1 |  2.5MB/s|0%|Disney|Opena...
   network: ws
   password: Aimer
   port: '443'
@@ -89,14 +55,49 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: 2|🇹🇼2 |  1.3MB/s|0%|Netflix|Open...
+  network: ws
+  password: Aimer
+  port: '443'
+  server: 209.208.227.79
+  skip-cert-verify: false
+  sni: epccj.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: 2|🇹🇼3 |  1.4MB/s|0%|Netflix|Disn...
+  network: ws
+  password: Aimer
+  port: '2096'
+  server: 167.68.4.10
+  skip-cert-verify: false
+  sni: epccj.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
     path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 2,12|🇹🇼 台湾|@ripaojiedian
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   port: 3462
   server: a10.taipeicitygovernment.kyiv.ua
   skip-cert-verify: false
   sni: 45.32.28.232
   type: trojan
+  udp: true

@@ -1,65 +1,78 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: 8ba328a8-c9c6-43d8-b4e8-7807c97bd850
+  password: 2045ad00-5f17-431a-9ccc-1c6ce2fbaeb8
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: 8ba328a8-c9c6-43d8-b4e8-7807c97bd850
+  password: 2045ad00-5f17-431a-9ccc-1c6ce2fbaeb8
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: 8ba328a8-c9c6-43d8-b4e8-7807c97bd850
+  password: 2045ad00-5f17-431a-9ccc-1c6ce2fbaeb8
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 01 | 1x JP
-  password: d93f59f8-5180-43b3-8a16-6074432d2b5b
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 02 | 1x JP
-  password: d93f59f8-5180-43b3-8a16-6074432d2b5b
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 03 | 1x JP
-  password: d93f59f8-5180-43b3-8a16-6074432d2b5b
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: random
-  name: 2|🇯🇵1 |  3.1MB/s|Disney|Youtube|...
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 2|🇯🇵1 |  1.7MB/s|63%|Netflix|Dis...
   network: ws
-  port: '10014'
-  server: 211.213.102.88
-  servername: mikuyo.bpd67081tsq.ddns-ip.net
+  port: '443'
+  server: 172.66.47.92
+  servername: Work-YUU00.pageS.dEv
   tls: true
   type: vless
   udp: true
-  uuid: be21e25f-5919-4e6b-b443-bfa45273de5d
+  uuid: 49d4b99d-7d99-416a-9778-2c75d79100bb
   ws-opts:
     headers:
-      Host: mikuyo.bpd67081tsq.ddns-ip.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /?ed=2560
+      Host: work-yuu00.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: ''
   xudp: true
+- client-fingerprint: chrome
+  name: 2|🇯🇵2 |  2.1MB/s|Disney|Youtube|...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky03.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - client-fingerprint: random
-  name: 2|🇯🇵2 |  6.1MB/s|8%|Disney|Youtu...
+  name: 2|🇯🇵3 |  3.7MB/s|8%|Netflix|Yout...
   network: ws
   port: '14220'
   server: 218.51.125.182
@@ -71,127 +84,14 @@ proxies:
   ws-opts:
     headers:
       Host: mikuyo.bpd67081tsq.ddns-ip.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /?ed=2560
   xudp: true
-- client-fingerprint: chrome
-  name: 2|🇯🇵3 |  5.3MB/s|8%|Disney|Youtu...
+- name: 2|🇯🇵4 |  2.9MB/s|Netflix|Disney|...
   network: ws
-  port: '24443'
-  server: 213.210.55.72
-  servername: miku.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      Host: miku.mikuru.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /?ed
-  xudp: true
-- client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 2|🇯🇵4 |  1.9MB/s|60%|Youtube|Ope...
-  network: tcp
-  port: '15493'
-  reality-opts:
-    public-key: bnyccN-N4Yh5Wf7Ir4teJfqC1Pi6h1ORbZTtnxoxGFg
-    short-id: '30'
-  server: 139.162.108.193
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16003d11-87d6-4912-91ec-34f82fc28e4d
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇯🇵5 |  5.2MB/s|8%|Disney|Opena...
-  network: ws
-  port: '8442'
-  server: 185.233.184.66
-  servername: miku.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      Host: miku.mikuru.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /?ed
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇯🇵6 |  2.8MB/s|8%|Netflix|Disn...
-  network: ws
-  port: '20000'
-  server: 45.76.143.208
-  servername: miku.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      Host: miku.mikuru.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed
-  xudp: true
-- name: 2|🇯🇵7 |  2.4MB/s|0%|Netflix|Disn...
-  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
-  port: 2053
-  server: 02.tokyometropolis.ivano-frankivsk.ua
-  sni: 45.32.28.232
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 2|🇯🇵8 |  2.5MB/s|0%|Netflix|Yout...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky03.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- alterId: 64
-  cipher: auto
-  name: 2|🇯🇵9 |  1.9MB/s|51%|Youtube|Ope...
-  network: ws
-  port: 1443
-  server: sslvpn.51job.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
-- auth: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  name: 2|🇯🇵10 |  1.3MB/s|0%|Disney|Yout...
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  port: 13301
-  server: baipiaoyun-japan.baipiaoyun.site
-  skip-cert-verify: true
-  sni: s0.awsstatic.com
-  type: hysteria2
-  udp: true
-- name: 2|🇯🇵11 |  3.5MB/s|8%|Disney|Open...
-  network: ws
-  port: 12416
-  server: 121.174.200.92
+  port: 12202
+  server: 14.56.226.68
   servername: miku.mikuru.ip-ddns.com
   skip-cert-verify: true
   tls: true
@@ -202,7 +102,18 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 2|🇯🇵12 |  1.1MB/s|8%|Disney|Open...
+- auth: 3ed64477-9d5c-49ca-b536-2dae51c987d2
+  name: 2|🇯🇵5 |  2.0MB/s|0%|Disney|Youtu...
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3ed64477-9d5c-49ca-b536-2dae51c987d2
+  port: 13301
+  server: baipiaoyun-japan.baipiaoyun.site
+  skip-cert-verify: true
+  sni: s0.awsstatic.com
+  type: hysteria2
+  udp: true
+- name: 2|🇯🇵6 |  5.2MB/s|8%|Netflix|Yout...
   network: ws
   port: 8445
   server: 195.200.18.68

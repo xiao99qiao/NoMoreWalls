@@ -1,63 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 8ba328a8-c9c6-43d8-b4e8-7807c97bd850
+  password: 2045ad00-5f17-431a-9ccc-1c6ce2fbaeb8
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: d93f59f8-5180-43b3-8a16-6074432d2b5b
+  password: ea4f2fd6-6ec2-4245-8f5b-cae546c1a753
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  ip-version: dual
-  name: 2|🇩🇪1 |  2.3MB/s|0%|Netflix|Yout...
-  password: 67dYfi1uAv2ZTxXvLoek39
-  port: 33133
-  server: 66.151.41.89
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 2|🇩🇪2 |  1.9MB/s|45%|Openai
-  network: ws
-  port: '8443'
-  server: zula.ir
-  servername: vip.donghi.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9a0d271c-2bb5-469a-b104-e31a8d3f6618
-  ws-opts:
-    headers:
-      Host: vip.donghi.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇩🇪3 |  5.4MB/s|0%|Openai
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Rcapy_5gvuL9LOr1Bqz-Y84P69L3wUQjG48xpB4fLTA
-    short-id: 1d13151ce1
-  server: 91.107.219.8
-  servername: direct.pdownloaddigikala.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: eacc24ed-a1c1-4037-9af4-4f6bcd657119
-  xudp: true
-- name: 2|🇩🇪4 |  4.5MB/s|21%|Openai
+- name: 2|🇩🇪1 |  5.7MB/s|21%|Openai
   network: ws
   port: '2082'
   server: 104.17.148.22
@@ -67,27 +23,43 @@ proxies:
   ws-opts:
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
-- name: 2|🇩🇪5 |  2.5MB/s|24%|Openai
+- name: 2|🇩🇪2 |  5.6MB/s|34%|Openai
   network: ws
-  port: '80'
-  server: Zmaoz.Faculty.Ucdavis.Edu
-  servername: Zmaoz.Faculty.Ucdavis.Edu.
+  port: '8080'
+  server: 104.19.54.50
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 2fcef64f-4986-452e-bd3c-ccae07ff6270
   ws-opts:
     headers:
-      Host: Parsashonam-DE.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /@Parsashonam?ed=2048
+      Host: www.speedtest.net.www.zula.ir.cloudflare.com.www.parsvds.ir.svgspeedtest.net.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪6 |  6.0MB/s|46%|Openai
+  name: 2|🇩🇪3 |  5.3MB/s|46%|Openai
+  network: ws
+  port: '2096'
+  server: www.speedtest.net
+  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 2|🇩🇪4 |  2.6MB/s|46%|Openai
   network: ws
   port: '8443'
   server: 205.233.181.186
@@ -99,12 +71,46 @@ proxies:
   ws-opts:
     headers:
       Host: CiR346yL3b.DeRaKhT.iNfO
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪7 |  5.0MB/s|21%|Openai
+  name: 2|🇩🇪5 |  4.9MB/s|46%|Openai
+  network: ws
+  port: '2096'
+  server: 199.34.228.191
+  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 2|🇩🇪6 |  1.9MB/s|46%|Openai
+  network: ws
+  port: '443'
+  server: de02.abvpn.ru
+  servername: de02.abvpn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 588f094b-431b-422c-b80b-007945037072
+  ws-opts:
+    headers:
+      Host: de02.abvpn.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /websocket
+  xudp: true
+- client-fingerprint: chrome
+  name: 2|🇩🇪7 |  5.4MB/s|Openai
   network: tcp
   port: '443'
   reality-opts:
@@ -117,69 +123,129 @@ proxies:
   udp: true
   uuid: ca927399-2d1e-4547-86a1-8fab0235d1ed
   xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: yZ1aB2cC3dD4eE5f6gH7iJ8kL9mNOoP
-  name: 2|🇩🇪8 |  4.3MB/s|34%|Netflix|You...
-  network: grpc
+- name: 2|🇩🇪8 |  1.7MB/s|45%|Youtube|Ope...
+  network: ws
+  port: '8880'
+  server: 172.67.204.84
+  type: vless
+  udp: true
+  uuid: f3b7552c-d4f6-43c9-b87b-2990c3063a6b
+  ws-opts:
+    headers:
+      Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  name: 2|🇩🇪9 |  1.1MB/s|46%|Openai
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: Hng90MObJ5OBtIrfrf6U02WIx36R9srHLBwRsj1r7Dw
-    short-id: 05a6d4aa5e314637
-  server: 88.198.101.94
-  servername: stackoverflow.com
+  server: 95.164.47.60
+  servername: de02.abvpn.ru
   tls: true
   type: vless
   udp: true
-  uuid: 4da6161f-4086-4208-8b48-5be8f0d694d2
-  xudp: true
-- name: 2|🇩🇪9 |  4.6MB/s|21%|Openai
-  network: ws
-  port: '2082'
-  server: 104.17.147.22
-  type: vless
-  udp: true
-  uuid: 7f1a728b-b722-4ad1-9f89-37f510f6f4db
+  uuid: 588f094b-431b-422c-b80b-007945037072
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-  xudp: true
-- name: 2|🇩🇪10 |  2.6MB/s|21%|Youtube|Op...
-  network: tcp
-  port: '13065'
-  server: 5.75.196.237
-  type: vless
-  udp: true
-  uuid: bafee052-dd5e-45af-a627-c3734c4e359e
+      Host: de02.abvpn.ru
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /websocket
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪11 |  5.9MB/s|46%|Openai
+  name: 2|🇩🇪10 |  5.3MB/s|34%|Openai
   network: ws
-  port: '2096'
-  server: 199.34.228.182
-  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
+  port: '3993'
+  server: 176.9.243.164
+  servername: marzban.negintel.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20afb0d4-7879-4f14-9dd8-39d8a026f75e
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: ?ed=2084
+  xudp: true
+- client-fingerprint: chrome
+  name: 2|🇩🇪11 |  5.8MB/s|46%|Openai
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  servername: 5G9043aJwE.sAkHrE.iNfO
   tls: true
   type: vless
   udp: true
   uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
   ws-opts:
     headers:
-      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+      Host: 5G9043aJwE.sAkHrE.iNfO
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
     path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 2|🇩🇪12 |  5.8MB/s|21%|Netflix|Di...
+  network: ws
+  port: '443'
+  server: 104.26.13.31
+  servername: FinLAnd-A3r.pAgES.dEv
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3130e111-a06c-4388-aeda-4b43f6e8e51f
+  ws-opts:
+    headers:
+      Host: finland-a3r.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /Tel-@V2ray_Alpha/?ed=2560
+  xudp: true
+- name: 2|🇩🇪13 |  2.8MB/s|24%|Netflix|Di...
+  network: ws
+  port: '8880'
+  server: www.zula.ir
+  type: vless
+  udp: true
+  uuid: 816def99-0003-4466-a53d-37d111503469
+  ws-opts:
+    headers:
+      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  name: 2|🇩🇪14 |  5.4MB/s|34%|Openai
+  network: ws
+  port: '3993'
+  server: germany.gamingbazirani.ir
+  servername: marzban.negintel.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20afb0d4-7879-4f14-9dd8-39d8a026f75e
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: ?ed=2084
   xudp: true
 - client-fingerprint: chrome
   http-opts:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪12 |  5.6MB/s|24%|Openai
+  name: 2|🇩🇪15 |  5.4MB/s|24%|Openai
   network: tcp
   port: '7022'
   reality-opts:
@@ -192,193 +258,17 @@ proxies:
   udp: true
   uuid: ce462cc3-9983-45da-b030-728fb7b5684e
   xudp: true
-- name: 2|🇩🇪13 |  5.1MB/s|24%|Disney|Ope...
+- name: 2|🇩🇪16 |  5.8MB/s|21%|Openai
   network: ws
-  port: '8880'
-  server: www.zula.ir
-  type: vless
-  udp: true
-  uuid: 816def99-0003-4466-a53d-37d111503469
-  ws-opts:
-    headers:
-      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇩🇪14 |  5.5MB/s|46%|Openai
-  network: ws
-  port: '2096'
-  server: 199.34.228.191
-  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  ws-opts:
-    headers:
-      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇩🇪15 |  4.4MB/s|46%|Openai
-  network: ws
-  port: '443'
-  server: 95.164.47.60
-  servername: de02.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 588f094b-431b-422c-b80b-007945037072
-  ws-opts:
-    headers:
-      Host: de02.abvpn.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /websocket
-  xudp: true
-- name: 2|🇩🇪16 |  2.1MB/s|45%|Youtube|Op...
-  network: ws
-  port: '8880'
-  server: zula.ir
-  type: vless
-  udp: true
-  uuid: f3b7552c-d4f6-43c9-b87b-2990c3063a6b
-  ws-opts:
-    headers:
-      Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇩🇪17 |  5.4MB/s|0%|Openai
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Rcapy_5gvuL9LOr1Bqz-Y84P69L3wUQjG48xpB4fLTA
-    short-id: 1d13151ce1
-  server: direct.pdownloaddigikala.ir
-  servername: direct.pdownloaddigikala.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: eacc24ed-a1c1-4037-9af4-4f6bcd657119
-  xudp: true
-- name: 2|🇩🇪18 |  5.2MB/s|21%|Openai
-  network: ws
-  port: '80'
+  port: '2082'
   server: 104.17.147.22
   type: vless
   udp: true
-  uuid: 30fbfe1d-aa34-4758-99ae-57f0df18cacc
+  uuid: 7f1a728b-b722-4ad1-9f89-37f510f6f4db
   ws-opts:
     headers:
-      Host: www.speedtest.net.lop.isvpython.online.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇩🇪19 |  5.1MB/s|46%|Openai
-  network: ws
-  port: '2096'
-  server: 199.34.228.164
-  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  ws-opts:
-    headers:
-      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: ''
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇩🇪20 |  5.8MB/s|46%|Openai
-  network: ws
-  port: '2096'
-  server: www.speedtest.net
-  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  ws-opts:
-    headers:
-      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
-- name: 2|🇩🇪21 |  3.4MB/s|24%|Disney|Ope...
-  network: ws
-  port: '8880'
-  server: 172.67.204.84
-  type: vless
-  udp: true
-  uuid: 816def99-0003-4466-a53d-37d111503469
-  ws-opts:
-    headers:
-      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇩🇪22 |  3.2MB/s|46%|Openai
-  network: ws
-  port: '443'
-  server: de02.abvpn.ru
-  servername: de02.abvpn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 588f094b-431b-422c-b80b-007945037072
-  ws-opts:
-    headers:
-      Host: de02.abvpn.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/39.0.2171.95 Safari/537.36
-    path: /websocket
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇩🇪23 |  2.7MB/s|46%|Openai
-  network: ws
-  port: '2096'
-  server: 199.34.228.171
-  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  ws-opts:
-    headers:
-      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- delay: 2144
-  name: 2|🇩🇪24 |  1.2MB/s|64%|Youtube|Op...
-  password: RlzoEILU
-  port: 7789
-  server: 36.151.251.61
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: '11|Channel id: @ShadowProxy66🇩🇪'
-  obfs: salamander
-  obfs-password: PassWord1
-  password: PassWord2
-  port: 8443
-  server: 45.138.99.106
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
