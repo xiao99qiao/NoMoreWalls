@@ -1,21 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: eeda1d89-549e-4cf4-958c-0136e935e773
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 6255864a-9c40-4062-a128-0bbaf3aea43e
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: b9ce1486-4a67-4373-9f5b-988d28bdad38
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺 俄罗斯 01 | 1x RU
+  password: 10dd9a3b-0237-403b-8ede-854c57dda1f7
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- delay: 713
+  down: ''
+  fingerprint: ''
+  name: 2|🇷🇺1 |  1.9MB/s|0%
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.29.163.171
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- delay: 699
+  down: ''
+  fingerprint: ''
+  name: 2|🇷🇺2 |  4.4MB/s|50%|Youtube
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- auth: dongtaiwang.com
+  name: 2|🇷🇺3 |  2.0MB/s|50%|Youtube
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- delay: 765
   fast-open: true
-  name: 2|🇷🇺1 |  2.5MB/s|0%
+  name: 2|🇷🇺4 |  2.3MB/s|0%
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
