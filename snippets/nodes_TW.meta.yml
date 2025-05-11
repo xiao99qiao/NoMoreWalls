@@ -1,55 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 7073a02a-8cd0-418d-909b-d639b1f736a1
+  password: 5d5e5754-49eb-47ab-9400-ffc0577eceac
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 7073a02a-8cd0-418d-909b-d639b1f736a1
+  password: 5d5e5754-49eb-47ab-9400-ffc0577eceac
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 7073a02a-8cd0-418d-909b-d639b1f736a1
+  password: 5d5e5754-49eb-47ab-9400-ffc0577eceac
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇹🇼1 |  4.2MB/s|0%|Netflix|Disn...
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 5ca0f518-df52-410b-b1e6-e93eb0c3cee2
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: a6a30fda-fa11-4cc8-80f4-5227d67463fb
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 5ca0f518-df52-410b-b1e6-e93eb0c3cee2
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: a6a30fda-fa11-4cc8-80f4-5227d67463fb
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 5ca0f518-df52-410b-b1e6-e93eb0c3cee2
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: a6a30fda-fa11-4cc8-80f4-5227d67463fb
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 2|🇹🇼1 |  2.4MB/s|13%|Youtube|Ope...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tw01.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
   name: 12,13|台湾|@ripaojiedian
   network: tcp
