@@ -1,19 +1,7 @@
 proxies:
 - down: ''
   fingerprint: ''
-  name: 0|🇫🇷1 |  5.6MB/s|16%|Openai
-  obfs: ''
-  obfs-password: ''
-  password: dongtaiwang.com
-  port: '4489'
-  server: hy2-1.694463.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: 0|🇫🇷2 |  5.5MB/s|16%|Openai
+  name: 1|🇫🇷1 |  3.2MB/s|16%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -23,39 +11,31 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
-- delay: 728
-  name: 0|🇫🇷3 |  2.5MB/s|23%|Disney|Open...
+- down: ''
+  fingerprint: ''
+  name: 1|🇫🇷2 |  5.7MB/s|16%|Openai
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: '4489'
+  server: hy2-1.694463.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- name: 1|🇫🇷3 |  1.5MB/s|45%
   network: ws
-  port: 443
-  server: duke.ns.cloudflare.com
-  servername: vless03.trevely.us.kg
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5177172c-125a-47fa-bccd-3778b459a75e
-  ws-opts:
-    headers:
-      Host: vless03.trevely.us.kg
-    path: /?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 0|🇫🇷4 |  3.0MB/s|45%|Openai
-  network: ws
-  port: '443'
-  server: 190.93.245.137
-  servername: WWW.EsfahAnsimaN.infO.
-  tls: true
+  port: '8080'
+  server: 104.26.14.85
   type: vless
   udp: true
-  uuid: 3f9185b3-c35c-4b22-8675-cbd67bd03afc
+  uuid: 51fda508-20aa-419e-b4c3-3a6202411412
   ws-opts:
     headers:
-      Host: WWW.EsfahAnsimaN.infO.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
+      Host: 18.6na7PY43IT.zuLaiR.Org.
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /?ed=2048
   xudp: true
 - alpn:
   - h3
@@ -63,7 +43,7 @@ proxies:
   auth_str: dongtaiwang.com
   delay: 1652
   down: 55
-  name: 0|🇫🇷5 |  3.3MB/s|0%|Youtube|Open...
+  name: 1|🇫🇷4 |  5.7MB/s|0%|Youtube|Open...
   port: 46938
   protocol: udp
   server: 195.154.200.178
@@ -78,7 +58,7 @@ proxies:
   auth_str: dongtaiwang.com
   delay: 1608
   down: 100
-  name: 0|🇫🇷6 |  4.8MB/s|16%|Openai
+  name: 1|🇫🇷5 |  4.9MB/s|16%|Openai
   port: 14241
   protocol: udp
   server: 51.159.226.1
@@ -87,25 +67,25 @@ proxies:
   type: hysteria
   udp: true
   up: 100
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 0|🇫🇷7 |  1.7MB/s|0%|Youtube|Open...
-  network: grpc
-  port: '2030'
-  reality-opts:
-    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-    short-id: 7fe29733
-  server: ns6.esfahansiman.com
-  servername: refersion.com
-  tls: true
+- delay: 2606
+  name: 1|🇫🇷6 |  1.8MB/s|16%|Openai
+  network: ws
+  port: 8080
+  server: tgju.org
+  servername: IO.IhJtq0hklC.ZULAiR.OrG.
   type: vless
   udp: true
-  uuid: 3f9185b3-c35c-4b22-8675-cbd67bd03afc
+  uuid: 690ab90e-3f21-422b-8cb1-bc9845c7af1e
+  ws-opts:
+    headers:
+      Host: IO.IhJtq0hklC.ZULAiR.OrG.
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇫🇷8 |  5.6MB/s|100%|Netflix|Di...
+  name: 1|🇫🇷7 |  4.9MB/s|100%|Netflix|Op...
   network: ws
   port: 443
   server: 8.219.206.22
@@ -118,7 +98,23 @@ proxies:
     headers:
       Host: beyonddsz.cfd
     path: /linkws
-- name: 12|FR_speednode_0034
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
+  name: 1|🇫🇷8 |  1.3MB/s|0%|Youtube|Open...
+  network: grpc
+  port: '2030'
+  reality-opts:
+    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+    short-id: 7fe29733
+  server: ns6.esfahansiman.com
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f9185b3-c35c-4b22-8675-cbd67bd03afc
+  xudp: true
+- name: 14|FR_speednode_0034
   network: ws
   port: 80
   server: 46.8.224.211
