@@ -1,99 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷4 |  2.7MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
-- name: 2|🇰🇷6 |  1.2MB/s|62%|Disney
-  network: ws
-  password: amclubs
-  port: 2083
-  server: 104.16.134.27
-  skip-cert-verify: false
-  sni: tran.amclubs.rr.nu
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tran.amclubs.rr.nu
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 2|🇰🇷7 |  1.6MB/s|62%|Disney
-  network: ws
-  password: '!!str 123456'
-  port: '8443'
-  server: 198.41.208.69
-  skip-cert-verify: false
-  sni: top-azx.pages.dev
-  type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /Az1.vpn.33.TOP/?ed=2560
-- client-fingerprint: chrome
-  name: 2|🇰🇷9 |  1.1MB/s|62%|Netflix|Dis...
-  network: ws
-  password: '!!str 123456'
-  port: '8443'
-  server: 192.65.217.53
-  skip-cert-verify: false
-  sni: top-azx.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /Az1.vpn.33.TOP/?ed=2560
-- client-fingerprint: chrome
-  name: 2|🇰🇷10 |  1.1MB/s|Netflix|Disney
-  network: ws
-  password: '!!str 123456'
-  port: '8443'
-  server: 104.25.165.81
-  skip-cert-verify: false
-  sni: top-azx.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /Az1.vpn.33.TOP/?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 2|🇰🇷11 |  5.7MB/s|62%|Netflix|Di...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: '8443'
-  server: 172.66.44.230
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /tro8sFW1S91B6sZrM1?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国|@ripaojiedian

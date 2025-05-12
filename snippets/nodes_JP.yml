@@ -1,40 +1,58 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  delay: 1856
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇯🇵1 |  5.5MB/s|10%|Youtube|Ope...
-  network: tcp
-  port: 17233
-  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- delay: 653
+  name: 2|🇯🇵1 |  2.4MB/s|51%|Youtube|Ope...
+  password: RlzoEILU
+  port: 49893
+  server: 36.151.251.57
   skip-cert-verify: true
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵2 |  3.5MB/s|10%|Disney|Yout...
+  client-fingerprint: chrome
+  name: 2|🇯🇵2 |  5.8MB/s|10%|Disney|Yout...
   network: tcp
   port: 17233
   server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
@@ -45,17 +63,23 @@ proxies:
   udp: true
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
   xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1856
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇯🇵3 |  3.7MB/s|10%|Disney|Yout...
+  network: tcp
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
 - cipher: aes-256-gcm
-  name: 2|🇯🇵4 |  1.6MB/s|64%|Netflix|Dis...
+  name: 2|🇯🇵4 |  2.0MB/s|64%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11506'
-  server: cdn-p1-jp.weibo-dns.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 2|🇯🇵5 |  2.2MB/s|64%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: 11504
+  port: 11505
   server: cdn-p1-jp.weibo-dns.com
   type: ss
 - cipher: rc4-md5

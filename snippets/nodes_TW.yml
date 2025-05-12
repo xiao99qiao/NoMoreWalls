@@ -1,53 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇹🇼1 |  6.2MB/s|0%|Netflix|Disn...
-  network: ws
-  port: 80
-  server: 85ef02dd-b03e-94d5-61f4-bb5a8d5f491f.castlepeakhospital.moe
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇹🇼2 |  2.5MB/s|0%|Netflix|Disn...
-  network: ws
-  port: 80
-  server: 205928ec-61f8-1f90-8438-1b912b849b80.castlepeakhospital.moe
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 12,13|台湾|@ripaojiedian
   network: tcp
@@ -77,3 +70,16 @@ proxies:
   skip-cert-verify: false
   sni: skwygx.top
   type: trojan
+- name: 14|TW_speednode_0038
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560

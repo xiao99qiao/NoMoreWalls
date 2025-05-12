@@ -1,56 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: c16fd384-83ce-408e-85c9-13db91baeff7
+  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇭🇰1 |  5.4MB/s|0%|Disney
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 183.232.235.2
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 2|🇭🇰2 |  6.0MB/s|0%|Netflix|Yout...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11532'
-  server: cdn-p1-hk.weibo-dns.com
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36143
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 2|🇭🇰3 |  2.3MB/s|0%|Netflix|Disn...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: 11502
-  server: cdn-p1-hk.weibo-dns.com
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  port: 36145
+  server: free.2weradf.xyz
   type: ss
-- cipher: aes-256-gcm
-  name: 2|🇭🇰4 |  1.6MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: 11531
-  server: cdn-p1-hk.weibo-dns.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 2|🇭🇰5 |  1.2MB/s|16%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: 11501
-  server: cdn-p1-hk.weibo-dns.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 2|🇭🇰6 |  3.9MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: 11503
-  server: cdn-p1-hk.weibo-dns.com
-  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰4 |  1.6MB/s|16%|Netflix|Dis...
+  network: ws
+  port: 8080
+  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
+    path: /
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
