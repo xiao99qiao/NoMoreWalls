@@ -1,46 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
+  password: cb82886b-7c80-41db-90b4-840ed49bbce2
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
+  password: cb82886b-7c80-41db-90b4-840ed49bbce2
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
+  password: cb82886b-7c80-41db-90b4-840ed49bbce2
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  password: 512e2670-743f-4d9a-8244-2703bed51896
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  password: 512e2670-743f-4d9a-8244-2703bed51896
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  password: 512e2670-743f-4d9a-8244-2703bed51896
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 2|🇹🇼1 |  1.7MB/s|11%|Openai|Gemi...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tw01.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
   name: 12,13|台湾|@ripaojiedian
   network: tcp
