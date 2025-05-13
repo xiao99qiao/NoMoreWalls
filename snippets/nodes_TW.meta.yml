@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 060c8d0c-e9dd-4332-8944-100f15136df6
+  password: 3104dffc-c7fb-4117-ac1c-123cd558a1f4
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 060c8d0c-e9dd-4332-8944-100f15136df6
+  password: 3104dffc-c7fb-4117-ac1c-123cd558a1f4
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 060c8d0c-e9dd-4332-8944-100f15136df6
+  password: 3104dffc-c7fb-4117-ac1c-123cd558a1f4
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: f4032a0d-04ba-4886-9c0f-603075e08e74
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: a603d3ee-1de6-4368-83fe-70965fc0eccf
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: f4032a0d-04ba-4886-9c0f-603075e08e74
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: a603d3ee-1de6-4368-83fe-70965fc0eccf
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: f4032a0d-04ba-4886-9c0f-603075e08e74
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: a603d3ee-1de6-4368-83fe-70965fc0eccf
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
@@ -68,16 +68,3 @@ proxies:
   skip-cert-verify: false
   sni: data.sub-zrj.com
   type: trojan
-- name: 14|TW_speednode_0038
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 35.201.203.106
-  skip-cert-verify: true
-  sni: skwygx.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr?ed=2560
