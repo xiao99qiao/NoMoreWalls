@@ -1,29 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 6d81a6b5-f3d3-47a0-b4ee-d02a2352ae1f
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 1|🇨🇦1 |  4.8MB/s|62%|Disney|Open...
+- name: 0|🇨🇦1 |  5.2MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: iplocation.io
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 1|🇨🇦2 |  5.7MB/s|62%|Netflix|Dis...
-  network: ws
-  port: 443
-  server: 135.84.76.94
+  server: 192.0.63.116
   servername: vx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -34,10 +13,10 @@ proxies:
     headers:
       Host: vx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 1|🇨🇦3 |  1.4MB/s|62%|Disney|Open...
+- name: 0|🇨🇦2 |  2.7MB/s|62%|Disney|Yout...
   network: ws
-  port: 443
-  server: 192.0.63.200
+  port: 10099
+  server: 146.56.136.39
   servername: vx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -48,10 +27,24 @@ proxies:
     headers:
       Host: vx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 1|🇨🇦4 |  1.7MB/s|62%|Disney|Open...
+- name: 0|🇨🇦3 |  4.7MB/s|Netflix|Disney|...
   network: ws
   port: 443
-  server: 160.123.255.76
+  server: kyree.ns.cloudflare.com
+  servername: vx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 0|🇨🇦4 |  5.2MB/s|Youtube|Openai
+  network: ws
+  port: 443
+  server: time.is
   servername: vx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -63,10 +56,17 @@ proxies:
       Host: vx.ylks0033.dpdns.org
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: bfb51261-d062-4451-b820-83048012f037
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: eb2a8279-1e83-4392-bc45-e604d16c00dc
   port: 31441
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: 947eaa09-0f98-4a9b-ba7f-324729c67609
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 14|CA_speednode_0007
