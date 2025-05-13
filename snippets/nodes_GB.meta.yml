@@ -1,55 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: 64146711-8d1e-4ed1-93a1-845ccb5c54c7
+  password: 6d81a6b5-f3d3-47a0-b4ee-d02a2352ae1f
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 64146711-8d1e-4ed1-93a1-845ccb5c54c7
+  password: 6d81a6b5-f3d3-47a0-b4ee-d02a2352ae1f
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- down: ''
-  fingerprint: ''
-  name: 1|🇬🇧1 |  4.8MB/s|61%|Disney|Yout...
-  obfs: ''
-  obfs-password: ''
-  password: nfsn666
-  port: '8888'
-  server: ld-arm.nfsn666.gq
+- client-fingerprint: chrome
+  name: 1,14|CN_speednode_0117
+  password: beb150fd-b4b4-4347-bcb9-f23537fa1654
+  port: 44397
+  server: 183.240.116.252
   skip-cert-verify: true
-  sni: ld-arm.nfsn666.gq
-  type: hysteria2
-  up: ''
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港 01 | 1x HK
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
+  password: bfb51261-d062-4451-b820-83048012f037
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
+  password: bfb51261-d062-4451-b820-83048012f037
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 14|GB_speednode_0158
-  network: ws
-  port: 80
-  server: 194.36.55.181
-  servername: ipsycho.suex12.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: ipsycho.suex12.ir
-    path: /re5IzbZ9IZZMddtw?ed=2560
