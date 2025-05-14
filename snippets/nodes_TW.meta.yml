@@ -1,48 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: de69ca34-e7e3-437d-9e72-46bed8729b21
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: de69ca34-e7e3-437d-9e72-46bed8729b21
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: de69ca34-e7e3-437d-9e72-46bed8729b21
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 4bc7748c-02b0-4868-bdf6-0ac22267c68c
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 1ac5b070-137c-4fe3-b650-8687487a6331
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 4bc7748c-02b0-4868-bdf6-0ac22267c68c
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 1ac5b070-137c-4fe3-b650-8687487a6331
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 4bc7748c-02b0-4868-bdf6-0ac22267c68c
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 1ac5b070-137c-4fe3-b650-8687487a6331
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: d2ef927f-9256-4501-ae43-681dff84d701
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: d2ef927f-9256-4501-ae43-681dff84d701
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: d2ef927f-9256-4501-ae43-681dff84d701
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 2|🇹🇼1 |  2.9MB/s|0%|Netflix|Disn...
+  name: 2|🇹🇼1 |  1.6MB/s|0%|Openai|Gemin...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com

@@ -1,29 +1,17 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: de69ca34-e7e3-437d-9e72-46bed8729b21
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 4bc7748c-02b0-4868-bdf6-0ac22267c68c
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 1ac5b070-137c-4fe3-b650-8687487a6331
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alpn:
-  - h3
-  auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  client-fingerprint: chrome
-  name: 2|🇨🇦1 |  1.1MB/s|20%|Netflix|Dis...
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 40.233.80.61
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: d2ef927f-9256-4501-ae43-681dff84d701
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
   udp: true
 - name: 14|CA_speednode_0009
   network: ws
@@ -38,17 +26,3 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=140.238.158.238:443&proxyIP=null
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|CA_speednode_0010
-  port: 26113
-  reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: 1fbd20fd
-  server: 40.233.80.61
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
