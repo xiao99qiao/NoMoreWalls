@@ -1,45 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 37e9a936-e160-4986-a8e2-0ca46bf9d184
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 37e9a936-e160-4986-a8e2-0ca46bf9d184
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇭🇰1 |  1.5MB/s|15%|Disney|Yout...
-  network: tcp
-  port: 20550
-  reality-opts:
-    public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
-  server: hkt-ty-line-1.sudatech.store
-  servername: www.paypal.com
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: ba61b6bf-1e45-4af7-9868-6cbd094af55a
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: 2d317da5-47c5-4db4-933f-16d1094668db
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: ba61b6bf-1e45-4af7-9868-6cbd094af55a
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 12,13|香港|@ripaojiedian
   network: tcp

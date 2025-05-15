@@ -1,68 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 37e9a936-e160-4986-a8e2-0ca46bf9d184
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 37e9a936-e160-4986-a8e2-0ca46bf9d184
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 37e9a936-e160-4986-a8e2-0ca46bf9d184
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇺🇸16 |  2.8MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸8 |  1.2MB/s|46%|Openai|Gemi...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 4ef54dd8-swd340-t1bnjq-1krtb.cu.plebai.net
   type: trojan
-- name: 2|🇺🇸30 |  1.6MB/s|46%|Openai|Gem...
-  password: 408e7148-df67-11ed-8e13-f23c91cfbbc9
-  port: 15229
-  server: 18c36079-swb8g0-swwhoz-1me9w.cu.plebai.net
-  skip-cert-verify: true
-  sni: 18c36079-swb8g0-swwhoz-1me9w.cu.plebai.net
-  type: trojan
-  udp: true
-- name: 2|🇺🇸31 |  2.4MB/s|46%|Openai
-  password: b93c66cc-00ed-11ec-8673-f23c9164ca5d
-  port: 15229
-  server: 2e113de4-swb8g0-sxoons-1a3sy.cu.plebai.net
-  skip-cert-verify: true
-  sni: 2e113de4-swb8g0-sxoons-1a3sy.cu.plebai.net
-  type: trojan
-  udp: true
-- name: 2|🇺🇸32 |  2.2MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸20 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: b5d29914-swb8g0-swy6li-tni2.cu.plebai.net
@@ -72,12 +35,86 @@ proxies:
   udp: true
 - alterId: 0
   client-fingerprint: chrome
-  name: 2|🇺🇸54 |  2.4MB/s|Openai|Gemini
+  name: 1|🇺🇸29 |  1.7MB/s|Openai
   password: RlzoEILU
   port: 7815
   server: 36.151.251.59
   skip-cert-verify: true
   type: trojan
+  udp: true
+- name: 1,14|US_speednode_0059
+  password: '!!str 74260665780162200'
+  port: 443
+  server: settled-mite.shiner427.skin
+  skip-cert-verify: false
+  sni: settled-mite.shiner427.skin
+  type: trojan
+  udp: true
+- name: 1|🇺🇸47 |  1.3MB/s|46%|Openai|Gem...
+  password: 3e6ae2e4-a8a5-11ef-8578-f23c913c8d2b
+  port: 15229
+  server: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net
+  sni: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net
+  type: trojan
+- name: 1|🇺🇸48 |  1.3MB/s|46%|Openai|Gem...
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 15229
+  server: 5541c006-swexs0-swy6li-tni2.cu.plebai.net
+  skip-cert-verify: true
+  sni: 5541c006-swexs0-swy6li-tni2.cu.plebai.net
+  tfo: false
+  type: trojan
+  udp: true
+- name: 1|🇺🇸49 |  1.5MB/s|46%|Openai|Gem...
+  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
+  port: 15229
+  server: 72135393-swb8g0-sxzls8-1gxvd.cu.plebai.net
+  skip-cert-verify: true
+  sni: 72135393-swb8g0-sxzls8-1gxvd.cu.plebai.net
+  type: trojan
+  udp: true
+- name: 1|🇺🇸50 |  1.8MB/s|46%|Openai
+  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+  port: 15229
+  server: f5ada702-swb8g0-t5fh9u-1uni.cu.plebai.net
+  skip-cert-verify: true
+  sni: f5ada702-swb8g0-t5fh9u-1uni.cu.plebai.net
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸116 |  5.7MB/s|32%|Openai
+  network: ws
+  port: 2096
+  server: 141.101.120.253
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: ba61b6bf-1e45-4af7-9868-6cbd094af55a
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: ba61b6bf-1e45-4af7-9868-6cbd094af55a
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: ba61b6bf-1e45-4af7-9868-6cbd094af55a
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
   udp: true
 - alterId: 2
   cipher: auto
@@ -139,14 +176,6 @@ proxies:
   server: possible-tiger.shiner427.skin
   skip-cert-verify: false
   sni: possible-tiger.shiner427.skin
-  type: trojan
-  udp: true
-- name: 14|US_speednode_0059
-  password: '!!str 74260665780162200'
-  port: 443
-  server: settled-mite.shiner427.skin
-  skip-cert-verify: false
-  sni: settled-mite.shiner427.skin
   type: trojan
   udp: true
 - name: 14|US_speednode_0064
