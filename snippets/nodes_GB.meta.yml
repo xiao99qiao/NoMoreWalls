@@ -1,18 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 1,13|GB_speednode_0163
   port: 55311
@@ -26,6 +12,55 @@ proxies:
   type: vless
   udp: true
   uuid: 52a0b1c0-0b8d-4e08-a2ae-89f6f13852b4
+- down: ''
+  fingerprint: ''
+  name: 1|🇬🇧2 |  3.4MB/s|61%|Netflix|You...
+  obfs: ''
+  obfs-password: ''
+  password: nfsn666
+  port: '8888'
+  server: ld-arm.nfsn666.gq
+  skip-cert-verify: true
+  sni: ld-arm.nfsn666.gq
+  type: hysteria2
+  up: ''
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧3 |  1.4MB/s|100%|Openai
+  password: VfaEatGj7iXncVpijKFC1e
+  port: '59945'
+  server: 62.60.231.81
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: '@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY'
+  name: 1|🇬🇧4 |  5.1MB/s|33%|Openai
+  network: grpc
+  port: '2083'
+  reality-opts:
+    public-key: _Mo8etwPEDo42B4BnrkX3FOaPsOv2thyIlrzg3hhDBk
+    short-id: e09b0ba7d2
+  server: 77.110.100.177
+  servername: speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 108d0bd4-ed8a-4186-995f-8f49e3127699
+  xudp: true
+- name: 1|🇬🇧5 |  5.6MB/s|0%|Netflix|Disn...
+  network: ws
+  port: '80'
+  server: www.speedtest.net
+  type: vless
+  udp: true
+  uuid: 1784cdd4-bd30-4451-8c0a-f9af3f42808b
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.lop.isvpython.online.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn?ed=2048
+  xudp: true
 - name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
@@ -153,14 +188,14 @@ proxies:
     path: /proxyip=217.163.76.237:443
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港 01 | 1x HK
-  password: cf8dba95-227c-447f-897c-61968647d02d
+  password: 05131a99-c8e2-4154-acae-a13555c02363
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: cf8dba95-227c-447f-897c-61968647d02d
+  password: 05131a99-c8e2-4154-acae-a13555c02363
   port: 36271
   server: free.2weradf.xyz
   type: ss
