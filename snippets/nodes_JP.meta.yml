@@ -1,57 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- delay: 478
-  name: 2|🇯🇵1 |  3.4MB/s|0%|Netflix|Yout...
-  password: feac8d6d-8fcf-4ef1-9ad0-18833c9fca11
-  port: 28507
-  server: green.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵2 |  1.2MB/s|11%|Disney|Yout...
+  name: 1|🇯🇵1 |  1.1MB/s|Disney|Youtube|...
   network: tcp
   port: 17233
   server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
@@ -62,6 +33,56 @@ proxies:
   ws-headers:
     Host: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
   ws-path: /
+- auth: 3ed64477-9d5c-49ca-b536-2dae51c987d2
+  client-fingerprint: chrome
+  name: 1|🇯🇵2 |  2.3MB/s|0%|Disney|Youtu...
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3ed64477-9d5c-49ca-b536-2dae51c987d2
+  port: 13301
+  server: baipiaoyun-japan.baipiaoyun.site
+  skip-cert-verify: true
+  sni: s0.awsstatic.com
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,12,13|日本4|@ripaojiedian
+  network: ws
+  port: '46015'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 01 | 1x JP
+  password: 63fbaae5-fb5a-4526-a3ae-5acaa50421a8
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 02 | 1x JP
+  password: 63fbaae5-fb5a-4526-a3ae-5acaa50421a8
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 03 | 1x JP
+  password: 63fbaae5-fb5a-4526-a3ae-5acaa50421a8
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
@@ -101,23 +122,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|日本4|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: 112.29.213.228
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇯🇵 日本特殊|@ripaojiedian

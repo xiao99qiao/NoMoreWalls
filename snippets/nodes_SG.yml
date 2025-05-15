@@ -1,46 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇸🇬1 |  1.3MB/s|34%|Netflix|Dis...
-  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
-  port: 35000
-  server: gzyd.cg.xxality.cn
-  skip-cert-verify: false
-  sni: cgsg2.hysality.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 63fbaae5-fb5a-4526-a3ae-5acaa50421a8
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 63fbaae5-fb5a-4526-a3ae-5acaa50421a8
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -97,16 +90,10 @@ proxies:
   port: 8123
   server: mortify.koreanbbq.link
   type: trojan
-- name: 14|SG_speednode_0048
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 138.2.107.107
+- name: 14|SG_speednode_0146
+  password: 9de6d20c-d133-4261-8dd2-88684d619f7e
+  port: 43456
+  server: 43.163.126.61
   skip-cert-verify: true
-  sni: icecream.955850.xyz
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=138.2.107.107:443&proxyIP=null

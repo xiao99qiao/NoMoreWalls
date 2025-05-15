@@ -1,37 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  5.1MB/s|75%|Netflix|You...
-  password: qwerREWQ@@
-  port: 11389
-  server: 221.150.109.89
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 63fbaae5-fb5a-4526-a3ae-5acaa50421a8
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  5.8MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
-  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国|@ripaojiedian
@@ -48,46 +36,32 @@ proxies:
   server: 13.229.110.124
   tfo: false
   type: ss
-- client-fingerprint: random
-  name: 14|KR_speednode_0037
+- name: 14|KR_speednode_0140
   network: ws
-  port: 10243
-  server: 221.151.124.103
-  servername: 0229.patterdeng.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  ws-opts:
-    headers:
-      Host: 0229.patterdeng.pp.ua
-    path: /?ed=2560
-- name: 14|KR_speednode_0038
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 10243
-  server: 221.151.124.103
+  port: 18888
+  server: 183.106.162.127
+  servername: cc.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=221.151.124.103:10243&proxyIP=null
-- client-fingerprint: chrome
-  name: 14|KR_speednode_0039
+      Host: cc.bgm2024.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 14|KR_speednode_0141
   network: ws
-  port: 58474
-  server: 152.70.232.251
-  servername: chou3.pages.dev
+  port: 443
+  server: 152.70.90.168
+  servername: abdoo.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0c561336-b0c7-4b18-96d1-863240a224ab
+  uuid: c6e6ce26-6ab2-4e6d-9221-76e49a916553
   ws-opts:
     headers:
-      Host: chou3.pages.dev
-    path: /
+      Host: abdoo.pages.dev
+    path: /?ed=2560

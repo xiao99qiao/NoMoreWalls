@@ -1,23 +1,11 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: 2|🇫🇷1 |  5.7MB/s|15%|Openai
-  obfs: ''
-  obfs-password: ''
-  password: dongtaiwang.com
-  port: '4489'
-  server: hy2-1.694463.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   delay: 1608
   down: 100
-  name: 2|🇫🇷2 |  6.1MB/s|15%|Openai
+  name: 1|🇫🇷1 |  1.1MB/s|15%|Openai
   port: 14241
   protocol: udp
   server: 51.159.226.1
@@ -26,46 +14,9 @@ proxies:
   type: hysteria
   udp: true
   up: 100
-- alterId: 0
-  cipher: auto
-  name: 2|🇫🇷3 |  4.4MB/s|0%|Openai
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
-  ws-opts:
-    headers:
-      Host: Fra-Vp-123.BLaZECLOUD.Site
-    path: /linvkws
-- alterId: '0'
-  cipher: auto
-  name: 2|🇫🇷4 |  2.4MB/s|100%|Netflix|Op...
-  network: ws
-  port: 443
-  server: 132.145.232.171
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-  xudp: true
-- delay: 1122
-  name: 2|🇫🇷5 |  2.5MB/s|30%|Youtube|Ope...
-  password: '!!str 74260665780162200'
-  port: 443
-  server: noble-minnow.shiner427.skin
-  sni: noble-minnow.shiner427.skin
-  type: trojan
 - down: ''
   fingerprint: ''
-  name: 2|🇫🇷6 |  2.0MB/s|15%|Openai
+  name: 1|🇫🇷2 |  2.7MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -75,81 +26,32 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
-- name: 2|🇫🇷7 |  2.2MB/s|15%|Openai
+- name: 1|🇫🇷3 |  5.3MB/s|50%|Openai
   network: ws
-  port: '8080'
-  server: tgju.org
-  servername: IO.IhJtq0hklC.ZULAiR.OrG.
+  port: '80'
+  server: www.speedtest.net
   type: vless
   udp: true
-  uuid: 690ab90e-3f21-422b-8cb1-bc9845c7af1e
+  uuid: ac2bfdf2-7c88-449f-b353-0ff9d026bb6a
   ws-opts:
     headers:
-      Host: IO.IhJtq0hklC.ZULAiR.OrG.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
+      Host: www.speedtest.net1.svgspeedtest.net.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet?ed=2048
   xudp: true
-- name: 2|🇫🇷8 |  5.8MB/s|15%
+- delay: 1594
+  name: 1|🇫🇷4 |  3.0MB/s|50%|Openai
   network: ws
-  port: '8080'
-  server: 172.67.73.163
+  port: 80
+  server: 104.17.148.22
   type: vless
   udp: true
-  uuid: 56652249-2e67-4429-b86c-3df8b838ad85
+  uuid: ac2bfdf2-7c88-449f-b353-0ff9d026bb6a
   ws-opts:
     headers:
-      Host: 4j.QBAo1g5z6k.ZulaIR.org.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: ''
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 2|🇫🇷9 |  4.4MB/s|43%|Openai
-  network: ws
-  port: '443'
-  server: 190.93.245.137
-  servername: WWW.EsfahAnsimaN.infO.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eed18db-ebf7-4ed0-9244-cf1679bc6dd6
-  ws-opts:
-    headers:
-      Host: WWW.EsfahAnsimaN.infO.
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 2|🇫🇷10 |  1.1MB/s|43%|Openai
-  network: ws
-  port: '8443'
-  server: zula.ir
-  servername: vip.donghi.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: a699533c-3710-4e0d-b840-c62c474581c7
-  ws-opts:
-    headers:
-      Host: vip.donghi.ir
+      Host: www.speedtest.net1.svgspeedtest.net.
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet----@SavageNet?ed=2048
   xudp: true
-- name: 14|FR_speednode_0021
-  password: '!!str 74260665780162200'
-  port: 443
-  server: grown-doberman.shiner427.skin
-  skip-cert-verify: false
-  sni: grown-doberman.shiner427.skin
-  type: trojan
-  udp: true

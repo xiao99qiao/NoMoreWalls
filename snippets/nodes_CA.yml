@@ -1,49 +1,24 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 1d53608e-7fb6-4f73-ad7c-91967ba8d383
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇨🇦1 |  2.3MB/s|Youtube|Openai|...
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: baidu.com
-    path: /oooo
-- name: 2|🇨🇦2 |  3.8MB/s|0%|Openai
+- client-fingerprint: chrome
+  name: 1|🇨🇦1 |  2.5MB/s|0%|Youtube|Open...
   password: '!!str 74260665780162200'
-  port: 443
-  server: allowing-owl.shiner427.skin
-  skip-cert-verify: true
+  port: '443'
+  server: 52.60.142.77
+  skip-cert-verify: false
   sni: allowing-owl.shiner427.skin
   type: trojan
-- name: 14|CA_speednode_0009
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 140.238.158.238
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=140.238.158.238:443&proxyIP=null
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: 63fbaae5-fb5a-4526-a3ae-5acaa50421a8
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
