@@ -1,50 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 372e9044-8c31-4263-92ad-2d9c04dc264e
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 372e9044-8c31-4263-92ad-2d9c04dc264e
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: e50ae8ff-4c76-49f7-bc87-ba2c9f7adfec
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: e50ae8ff-4c76-49f7-bc87-ba2c9f7adfec
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alpn:
-  - h2http/1.1
-  client-fingerprint: chrome
-  name: 2|🇬🇧1 |  5.3MB/s|44%|Openai
-  network: ws
-  port: '443'
-  server: www.speedtest.net
-  servername: BmUcKcNq2.ZuKaRiO.InFo
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: '@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY'
+  name: 2|🇬🇧1 |  3.7MB/s|33%|Openai
+  network: grpc
+  port: '2083'
+  reality-opts:
+    public-key: _Mo8etwPEDo42B4BnrkX3FOaPsOv2thyIlrzg3hhDBk
+    short-id: e09b0ba7d2
+  server: 77.110.100.177
+  servername: speedtest.net
   tls: true
   type: vless
   udp: true
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: BmUcKcNq2.ZuKaRiO.InFo
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
+  uuid: 108d0bd4-ed8a-4186-995f-8f49e3127699
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
+  name: 2|🇬🇧2 |  5.4MB/s|0%|Netflix|Disn...
+  network: grpc
+  port: '2030'
+  reality-opts:
+    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+    short-id: 7fe29733
+  server: 74.220.23.227
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98e5553e-abcc-4c9a-941a-8f0e9741d541
   xudp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih

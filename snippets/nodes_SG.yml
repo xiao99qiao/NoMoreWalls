@@ -1,50 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 372e9044-8c31-4263-92ad-2d9c04dc264e
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 372e9044-8c31-4263-92ad-2d9c04dc264e
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 372e9044-8c31-4263-92ad-2d9c04dc264e
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: e50ae8ff-4c76-49f7-bc87-ba2c9f7adfec
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: e50ae8ff-4c76-49f7-bc87-ba2c9f7adfec
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 8df0b1f5-a517-44c4-ad17-8d0dc98b164e
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬1 |  1.1MB/s|0%|Netflix|Disn...
-  port: 46121
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 2|🇸🇬2 |  1.4MB/s|34%|Netflix|Dis...
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 9d8c9676-40f9-49a9-a33f-c949a748ab84
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇸🇬1 |  1.3MB/s|34%|Netflix|Dis...
   password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
   port: 35000
   server: gzyd.cg.xxality.cn
@@ -85,14 +75,28 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
+  port: 8123
+  server: mortify.koreanbbq.link
+  skip-cert-verify: false
+  sni: mortify.koreanbbq.link
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: yijian0503
   port: 443
-  server: 47.128.78.62
+  server: 54.251.26.168
   tfo: false
   type: ss
+- name: 13|新加坡3|@ripaojiedian
+  network: tcp
+  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
+  port: 8123
+  server: mortify.koreanbbq.link
+  type: trojan
 - name: 14|SG_speednode_0048
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
