@@ -1,17 +1,31 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|🇨🇦1 |  2.1MB/s|0%|Youtube|Open...
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 14|CA_speednode_0016
   password: '!!str 74260665780162200'
-  port: '443'
-  server: 52.60.142.77
+  port: 443
+  server: allowing-owl.shiner427.skin
   skip-cert-verify: false
   sni: allowing-owl.shiner427.skin
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 05131a99-c8e2-4154-acae-a13555c02363
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
+- name: 14|CA_speednode_0017
+  password: '!!str 74260665780162200'
+  port: 443
+  server: 52.60.142.77
+  skip-cert-verify: true
+  sni: allowing-owl.shiner427.skin
+  type: trojan
   udp: true

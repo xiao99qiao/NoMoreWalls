@@ -1,7 +1,36 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
+  delay: 772
+  name: 2|🇰🇷7 |  1.4MB/s|Netflix|Disney
+  password: qwerREWQ@@
+  port: 4857
+  server: 125.141.26.12
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 36379
   server: p080.panda001.net
@@ -9,16 +38,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: yijian0503
   port: 443
   server: 13.229.110.124
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 05131a99-c8e2-4154-acae-a13555c02363
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
