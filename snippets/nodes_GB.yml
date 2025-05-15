@@ -1,33 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: 5f2a076d-5242-4f09-85af-dab382661c14
+  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 5f2a076d-5242-4f09-85af-dab382661c14
+  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: f5d39154-2f1e-4d66-9daf-b59955e8e005
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: f5d39154-2f1e-4d66-9daf-b59955e8e005
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 14|GB_speednode_0164
+- name: 13|GB_speednode_0164
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -40,7 +26,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.254:443&proxyIP=null
-- name: 14|GB_speednode_0165
+- name: 13|GB_speednode_0165
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -53,7 +39,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.237:443&proxyIP=null
-- name: 14|GB_speednode_0166
+- name: 13|GB_speednode_0166
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -66,7 +52,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.89:443&proxyIP=null
-- name: 14|GB_speednode_0167
+- name: 13|GB_speednode_0167
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -79,7 +65,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.227:443&proxyIP=null
-- name: 14|GB_speednode_0168
+- name: 13|GB_speednode_0168
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -92,7 +78,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.227:443
-- name: 14|GB_speednode_0169
+- name: 13|GB_speednode_0169
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -105,7 +91,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.51:443&proxyIP=null
-- name: 14|GB_speednode_0170
+- name: 13|GB_speednode_0170
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -118,7 +104,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.89:443
-- name: 14|GB_speednode_0171
+- name: 13|GB_speednode_0171
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -131,7 +117,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.254:443
-- name: 14|GB_speednode_0172
+- name: 13|GB_speednode_0172
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -144,3 +130,17 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.237:443
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: cf8dba95-227c-447f-897c-61968647d02d
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: cf8dba95-227c-447f-897c-61968647d02d
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
