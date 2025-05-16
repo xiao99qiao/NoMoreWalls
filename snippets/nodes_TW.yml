@@ -1,51 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 4fded0f7-1181-4dd7-a323-4b33a12cf76a
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 4fded0f7-1181-4dd7-a323-4b33a12cf76a
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 4fded0f7-1181-4dd7-a323-4b33a12cf76a
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼1 |  2.4MB/s|0%|Netflix|Disn...
-  password: d72162d1-9bce-460e-99ed-bc3c92cfbe11
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: 13d06f85-884f-4e11-a1b4-6b4272a094ec
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: f080bea1-4351-41dd-8db7-4831af7367b8
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: 13d06f85-884f-4e11-a1b4-6b4272a094ec
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: f080bea1-4351-41dd-8db7-4831af7367b8
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: 13d06f85-884f-4e11-a1b4-6b4272a094ec
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: f080bea1-4351-41dd-8db7-4831af7367b8
   port: 36245
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 49b43e88-8b20-4c46-ab8f-af384223b1e0
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 49b43e88-8b20-4c46-ab8f-af384223b1e0
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 49b43e88-8b20-4c46-ab8f-af384223b1e0
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
