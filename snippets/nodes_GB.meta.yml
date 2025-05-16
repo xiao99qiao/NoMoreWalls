@@ -1,36 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: dca3dcde-76f0-45db-9c7f-44b7f623a295
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: e2b3ea70-c84b-40f0-8cdc-ade893f8bb63
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 12cca33f-2d48-4180-9e62-6e2c55834886
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: dca3dcde-76f0-45db-9c7f-44b7f623a295
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 12cca33f-2d48-4180-9e62-6e2c55834886
   port: 36271
   server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: d9ed5e9b-f562-4746-a198-2dbbff39d4b1
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: d9ed5e9b-f562-4746-a198-2dbbff39d4b1
-  port: 31271
-  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: '@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY'
-  name: 2|🇬🇧1 |  1.1MB/s|33%|Openai
+  name: 2|🇬🇧1 |  2.4MB/s|33%|Openai
   network: grpc
   port: '2083'
   reality-opts:
@@ -46,7 +39,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 2|🇬🇧2 |  2.0MB/s|0%|Netflix|Disn...
+  name: 2|🇬🇧2 |  2.2MB/s|0%|Netflix|Disn...
   network: grpc
   port: '2030'
   reality-opts:
@@ -59,46 +52,6 @@ proxies:
   udp: true
   uuid: e66070a9-049f-42ce-9e14-9752141c3be4
   xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 2|🇬🇧3 |  4.7MB/s|0%|Netflix|Disn...
-  network: grpc
-  port: '2030'
-  reality-opts:
-    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-    short-id: 7fe29733
-  server: 74.220.23.227
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98e5553e-abcc-4c9a-941a-8f0e9741d541
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 2|🇬🇧4 |  5.0MB/s|0%|Netflix|Disn...
-  network: grpc
-  port: '2030'
-  reality-opts:
-    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-    short-id: 7fe29733
-  server: 74.220.23.227
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e66070a9-049f-42ce-9e14-9752141c3be4
-  xudp: true
-- name: 11|Hysteria 🇬🇧 @v2meowcf
-  password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
-  port: 443
-  server: 178.236.237.84
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 14|GB_speednode_0038
   network: ws
   port: 8880
@@ -159,20 +112,6 @@ proxies:
   network: ws
   port: 8880
   server: 91.193.58.215
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0043
-  network: ws
-  port: 8880
-  server: 91.193.58.58
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
