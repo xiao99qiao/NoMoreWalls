@@ -1,53 +1,91 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 2ea2727d-d604-4c7d-9823-5f31c29e81fa
+  password: 3f6d94b7-02e6-4cb1-8710-6394c0e0ea94
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 2ea2727d-d604-4c7d-9823-5f31c29e81fa
+  password: 3f6d94b7-02e6-4cb1-8710-6394c0e0ea94
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 2ea2727d-d604-4c7d-9823-5f31c29e81fa
+  password: 3f6d94b7-02e6-4cb1-8710-6394c0e0ea94
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 1|🇺🇸94 |  4.7MB/s|59%|Openai|Gem...
-  password: RlzoEILU
-  port: 55860
-  server: 36.151.251.59
-  skip-cert-verify: true
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: a074fe12-9ef4-4b88-8568-3a9395e68987
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: cead0cb8-65a0-4d4e-886b-6a3afe563c61
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: a074fe12-9ef4-4b88-8568-3a9395e68987
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: cead0cb8-65a0-4d4e-886b-6a3afe563c61
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: a074fe12-9ef4-4b88-8568-3a9395e68987
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: cead0cb8-65a0-4d4e-886b-6a3afe563c61
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 2|🇺🇸8 |  4.7MB/s|Openai
+  password: RlzoEILU
+  port: 7815
+  server: 36.151.251.59
+  skip-cert-verify: true
+  type: trojan
+- name: 2|🇺🇸54 |  1.9MB/s|46%|Openai|Gem...
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 15229
+  server: 5541c006-swexs0-swy6li-tni2.cu.plebai.net
+  skip-cert-verify: true
+  sni: 5541c006-swexs0-swy6li-tni2.cu.plebai.net
+  tfo: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 2|🇺🇸84 |  4.8MB/s|50%
+  network: ws
+  password: 70776bb4-d791-4cbd-9c9b-c76e937f9e60
+  port: 443
+  server: 172.67.216.240
+  skip-cert-verify: true
+  sni: Xxs345rf.857856.xYZ
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Xxs345rf.857856.xYZ
+    path: /71M8Ov1I5Gk9247fHC0XGZG6
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸136 |  4.0MB/s|51%|Openai|Ge...
+  network: ws
+  port: 2082
+  server: 172.67.214.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
+  ws-opts:
+    headers:
+      Host: cs.flha.ru
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -71,7 +109,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505121278853-hDhUn5bpB5.download.microsoft.com
+    host: 202505031478387-KuiKPndOsR.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
