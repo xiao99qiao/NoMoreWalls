@@ -1,64 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: f9c075ec-6ed5-4f6c-910e-f1f8507033cf
+  password: 91078b3f-52c6-4745-9151-8e4470883976
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: f9c075ec-6ed5-4f6c-910e-f1f8507033cf
+  password: 91078b3f-52c6-4745-9151-8e4470883976
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: f9c075ec-6ed5-4f6c-910e-f1f8507033cf
+  password: 91078b3f-52c6-4745-9151-8e4470883976
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1,14|US_speednode_0127
-  network: ws
-  port: 8080
-  server: 170.114.46.6
-  servername: xrr.rtxconfigz.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
-  ws-opts:
-    headers:
-      Host: xrr.rtxconfigz.xyz
-    path: /
-- name: 1|🇸🇬2 |  3.3MB/s|Youtube|Openai
-  network: ws
-  port: '8080'
-  server: 170.114.45.6
-  servername: xrr.rtxconfigz.xyz
-  type: vless
-  udp: true
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
-  ws-opts:
-    headers:
-      Host: xrr.rtxconfigz.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 5b65ac0c-5236-41f2-af50-1453090fc6e9
+  password: 9c48d6d6-9ce4-4d97-845a-46fc7a8d8ca5
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 5b65ac0c-5236-41f2-af50-1453090fc6e9
+  password: 9c48d6d6-9ce4-4d97-845a-46fc7a8d8ca5
   port: 36173
   server: free.2weradf.xyz
   type: ss
