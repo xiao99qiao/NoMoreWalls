@@ -1,23 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 3f6d94b7-02e6-4cb1-8710-6394c0e0ea94
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: cead0cb8-65a0-4d4e-886b-6a3afe563c61
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: f9c075ec-6ed5-4f6c-910e-f1f8507033cf
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: cead0cb8-65a0-4d4e-886b-6a3afe563c61
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: f9c075ec-6ed5-4f6c-910e-f1f8507033cf
   port: 31313
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇰🇷4 |  1.9MB/s|62%|Youtube|Ope...
+  network: ws
+  port: 2087
+  server: lv4.789900.xyz
+  servername: lv4.789900.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+  ws-opts:
+    headers:
+      Host: lv4.789900.xyz
+    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 5b65ac0c-5236-41f2-af50-1453090fc6e9
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
