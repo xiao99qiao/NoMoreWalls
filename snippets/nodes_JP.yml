@@ -1,49 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: 1b5f8bba-0f87-4028-8ba0-3d82feefa654
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: 1b5f8bba-0f87-4028-8ba0-3d82feefa654
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: 1b5f8bba-0f87-4028-8ba0-3d82feefa654
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 01 | 1x JP
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: 0ba9fa9b-d956-4ad8-a2e4-e012ac3d613a
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 02 | 1x JP
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: 0ba9fa9b-d956-4ad8-a2e4-e012ac3d613a
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 03 | 1x JP
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: 0ba9fa9b-d956-4ad8-a2e4-e012ac3d613a
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  3.9MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -57,6 +36,27 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 01 | 1x JP
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 02 | 1x JP
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 03 | 1x JP
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
