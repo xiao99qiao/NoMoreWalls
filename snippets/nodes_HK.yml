@@ -1,21 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 9890f82d-28d6-4b8d-8ec9-866e8284ce9a
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 9890f82d-28d6-4b8d-8ec9-866e8284ce9a
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 0|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -163,14 +149,14 @@ proxies:
   uuid: 26312aa7-13a8-40c9-9c37-da0cdfc2d225
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港 02 | 1x HK
-  password: f98a7013-7437-4f59-8022-e6d305848778
+  password: b709f72b-3cf3-4986-b7b3-8499f0370487
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港住宅IP 03 | 1x HK
-  password: f98a7013-7437-4f59-8022-e6d305848778
+  password: b709f72b-3cf3-4986-b7b3-8499f0370487
   port: 36145
   server: free.2weradf.xyz
   type: ss
