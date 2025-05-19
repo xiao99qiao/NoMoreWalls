@@ -1,12 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 522c59fb-a7c3-4d7b-b9cd-ae26d71522fb
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 1,13|US_speednode_0147
+- name: 0,13|US_speednode_0147
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -22,14 +15,14 @@ proxies:
     path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1,11|🇰🇷 韩国|@ripaojiedian
+  name: 0,11|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 1,13|AT_speednode_0003
+  name: 0,13|AT_speednode_0003
   network: ws
   port: 8880
   server: 212.183.88.20
@@ -43,6 +36,13 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: c0f67ded-dfa3-4739-83a2-caf3ac1fa118
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国2|@ripaojiedian
@@ -80,14 +80,14 @@ proxies:
     path: /proxyip=149.129.8.215:443&proxyIP=null
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 4480267f-620c-4b9c-9856-94fb2ad62c69
+  password: c9a39d38-8676-4f29-a443-d73264533ae3
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 4480267f-620c-4b9c-9856-94fb2ad62c69
+  password: c9a39d38-8676-4f29-a443-d73264533ae3
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
