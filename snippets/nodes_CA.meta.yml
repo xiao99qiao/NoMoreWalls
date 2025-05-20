@@ -1,12 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: a1afd2d4-0418-433b-909f-d7b17988651c
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: c6443d19-6435-4508-bb5a-1712a44c488b
+  password: 8fffb862-9737-4dfc-838a-57c8e0f8520f
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: '10|Channel id: @ShadowProxy66🇨🇦'
+- name: '11|Channel id: @ShadowProxy66🇨🇦'
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 155.248.216.247
@@ -14,10 +21,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: db4da550-16db-4e90-9fc6-a66d5e9ac567
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
