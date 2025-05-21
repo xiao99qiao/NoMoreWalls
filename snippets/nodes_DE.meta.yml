@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 8a9de591-0766-46eb-9e46-cd4035795abd
+  password: 8a7b0bf6-24c8-4c8e-9ec7-50f325a3f108
   port: 36471
   server: free.2weradf.xyz
   type: ss
@@ -92,14 +92,7 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 63714f01-8d6f-4883-bd56-4f78f493d3a9
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: '11|Channel id: @ShadowProxy66🇩🇪'
+- name: '10|Channel id: @ShadowProxy66🇩🇪'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 25560
   server: 152.53.225.161
@@ -107,7 +100,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇩🇪 #1'
+- name: '10|Channel id: @ShadowProxy66🇩🇪 #1'
   obfs: salamander
   obfs-password: PassWord1
   password: PassWord2
@@ -116,7 +109,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0008
+- name: 13|DE_speednode_0008
   network: ws
   port: 8880
   server: 89.116.46.20
@@ -130,3 +123,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 3eb2bc9d-bb8c-4081-bfcc-7eaaffc25a83
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
