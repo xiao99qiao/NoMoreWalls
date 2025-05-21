@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 8a7b0bf6-24c8-4c8e-9ec7-50f325a3f108
+  password: e1e3c4e8-2c5b-4f46-b90a-91abcdf1b588
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1,13|US_speednode_0030
+- name: 2,14|US_speednode_0180
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -22,28 +22,25 @@ proxies:
     path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1,11|🇰🇷 韩国|@ripaojiedian
+  name: 2,12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 1,13|AT_speednode_0003
+  name: 2|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 212.183.88.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 10|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
+- name: 11|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
   server: 152.69.225.196
@@ -51,7 +48,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: 10|🇰🇷韩国15 | ⬇️ 10.9MB/s|62%|Disne...
+- name: 11|🇰🇷韩国15 | ⬇️ 10.9MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
   server: 193.123.250.219
@@ -59,17 +56,3 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 01 | 1x KR
-  password: 3eb2bc9d-bb8c-4081-bfcc-7eaaffc25a83
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 02 | 1x KR
-  password: 3eb2bc9d-bb8c-4081-bfcc-7eaaffc25a83
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
