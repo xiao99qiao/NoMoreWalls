@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 9d3e7f1a-081b-438a-9155-dc1b9962d3d4
+  password: 1216ef94-3b6c-4e20-bcfc-b1f55776a234
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 9d3e7f1a-081b-438a-9155-dc1b9962d3d4
+  password: 1216ef94-3b6c-4e20-bcfc-b1f55776a234
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 9d3e7f1a-081b-438a-9155-dc1b9962d3d4
+  password: 1216ef94-3b6c-4e20-bcfc-b1f55776a234
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -1337,25 +1337,33 @@ proxies:
   type: socks5
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 272b55e6-d0ea-415b-854d-5845c6c359ea
+  password: d7d0b30f-cde5-476f-8b96-89b084e6152f
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 272b55e6-d0ea-415b-854d-5845c6c359ea
+  password: d7d0b30f-cde5-476f-8b96-89b084e6152f
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 272b55e6-d0ea-415b-854d-5845c6c359ea
+  password: d7d0b30f-cde5-476f-8b96-89b084e6152f
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 11|🇺🇸美国2 | ⬇️ 10.7MB/s|47%|Netfli...
+  password: dongtaiwang.com
+  port: 57773
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇺🇸'
   password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
   port: 3234
@@ -1431,14 +1439,6 @@ proxies:
   password: aa068abd-f858-4fdf-b7c2-101947f160cb
   port: 443
   server: us.xn--mes91t7ofgnw.com
-  tls: false
-  type: hysteria2
-- name: 11|🇺🇸美国2 | ⬇️ 10.7MB/s|47%|Netfli...
-  password: dongtaiwang.com
-  port: 57773
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
   tls: false
   type: hysteria2
 - cipher: rc4-md5
