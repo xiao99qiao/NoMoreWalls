@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: e1712647-6882-47f4-85d7-a0175aab1dc8
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 4782ed69-e1b2-499a-af4a-5005dca14711
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 345d111c-9875-4985-9244-7baf9347803e
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: e1712647-6882-47f4-85d7-a0175aab1dc8
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 345d111c-9875-4985-9244-7baf9347803e
   port: 31313
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 1d163cdb-9961-4787-a4fd-8d93771788a3
-  port: 36311
-  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 2,14|US_speednode_0180
@@ -70,3 +70,11 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国2|@ripaojiedian
+  password: b86a48e8-542d-4b90-bb6e-ff0a3e7e4e97
+  port: 38029
+  server: xz.fanhua.art
+  tfo: false
+  type: ss
