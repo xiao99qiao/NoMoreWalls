@@ -1,26 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: eb37d510-78ab-49a1-953a-a57ac5481c92
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 5680a826-8d33-4ff0-8f16-f4ebcde819a5
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 5680a826-8d33-4ff0-8f16-f4ebcde819a5
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 2|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+- name: 0|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -36,14 +15,14 @@ proxies:
     path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2,12|🇰🇷 韩国|@ripaojiedian
+  name: 0,10|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 2|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  name: 0|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 212.183.88.20
@@ -54,7 +33,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 11|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
+- name: 9|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
   server: 152.69.225.196
@@ -62,7 +41,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: 11|🇰🇷韩国15 | ⬇️ 10.9MB/s|62%|Disne...
+- name: 9|🇰🇷韩国15 | ⬇️ 10.9MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
   server: 193.123.250.219
@@ -70,3 +49,24 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇰🇷韩国 01 | 1x KR
+  password: 2f656e0f-2fe2-4d27-8395-e44ade997a12
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇰🇷韩国 02 | 1x KR
+  password: 2f656e0f-2fe2-4d27-8395-e44ade997a12
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: e2bb4561-ba4e-4841-9254-a0a05b3e31b2
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
