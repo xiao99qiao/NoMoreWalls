@@ -1,19 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 39fb2d10-49f4-407c-8aef-df6f00d1ffb8
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: b155f097-1cb1-4e78-aaef-57c3c3442a69
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: '11|Channel id: @ShadowProxy66🇨🇦'
+- name: '9|Channel id: @ShadowProxy66🇨🇦'
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 155.248.216.247
@@ -21,7 +7,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|CA_speednode_0008
+- name: 12|CA_speednode_0008
   network: ws
   port: 8880
   server: 74.49.214.29
@@ -35,7 +21,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|CA_speednode_0009
+- name: 12|CA_speednode_0009
   network: ws
   port: 8880
   server: 74.49.215.29
@@ -49,7 +35,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|CA_speednode_0010
+- name: 12|CA_speednode_0010
   network: ws
   port: 8880
   server: 74.49.215.29
@@ -63,3 +49,17 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇨🇦加拿大 01 | 1x CA
+  password: fd385495-8445-48b7-979c-c2a90d4c0d81
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 7e803966-0d83-4a92-aad4-316cc61d04c5
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

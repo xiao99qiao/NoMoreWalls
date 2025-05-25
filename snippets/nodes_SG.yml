@@ -1,42 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 39fb2d10-49f4-407c-8aef-df6f00d1ffb8
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 39fb2d10-49f4-407c-8aef-df6f00d1ffb8
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 39fb2d10-49f4-407c-8aef-df6f00d1ffb8
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: b155f097-1cb1-4e78-aaef-57c3c3442a69
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: b155f097-1cb1-4e78-aaef-57c3c3442a69
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 0|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -47,7 +12,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 10,11|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -64,7 +29,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
   port: 49121
   server: 183.236.51.38
   skip-cert-verify: false
@@ -74,7 +39,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
   password: 0JR5J197C0KDI6O5
   port: 16002
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -82,7 +47,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 13|新加坡2|@ripaojiedian
+  name: 11|新加坡2|@ripaojiedian
   network: tcp
   port: '49121'
   server: 183.236.51.38
@@ -90,3 +55,38 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇸🇬新加坡 01 | 1x SG
+  password: fd385495-8445-48b7-979c-c2a90d4c0d81
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇸🇬新加坡 02 | 1x SG
+  password: fd385495-8445-48b7-979c-c2a90d4c0d81
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇸🇬新加坡 03 | 1x SG
+  password: fd385495-8445-48b7-979c-c2a90d4c0d81
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 01 | 1x SG
+  password: 7e803966-0d83-4a92-aad4-316cc61d04c5
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 02 | 1x SG
+  password: 7e803966-0d83-4a92-aad4-316cc61d04c5
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
