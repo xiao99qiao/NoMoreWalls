@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 73afbe54-31fd-4994-9b98-b7eac5c7c974
+  password: e57bac7a-6482-4fb3-b4a2-7bb302b0c44a
   port: 36471
   server: free.2weradf.xyz
   type: ss
@@ -92,7 +92,14 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: '10|Channel id: @ShadowProxy66🇩🇪'
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: e4ab3300-eaa5-48d4-9358-d903354493d5
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: '11|Channel id: @ShadowProxy66🇩🇪'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 25560
   server: 152.53.225.161
@@ -100,7 +107,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇩🇪 #1'
+- name: '11|Channel id: @ShadowProxy66🇩🇪 #1'
   obfs: salamander
   obfs-password: PassWord1
   password: PassWord2
@@ -109,7 +116,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 13|DE_speednode_0031
+- name: 14|DE_speednode_0023
   network: ws
   port: 8880
   server: 5.182.34.29
@@ -123,7 +130,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|DE_speednode_0032
+- name: 14|DE_speednode_0024
   network: ws
   port: 8880
   server: 45.80.111.20
@@ -137,49 +144,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 13|DE_speednode_0033
-  network: ws
-  port: 8880
-  server: 89.116.46.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 13|DE_speednode_0034
-  network: ws
-  port: 8880
-  server: 5.10.215.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|DE_speednode_0035
-  network: ws
-  port: 8880
-  server: 45.80.111.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|DE_speednode_0036
+- name: 14|DE_speednode_0025
   network: ws
   port: 8880
   server: 140.99.233.29
@@ -193,21 +158,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|DE_speednode_0037
-  network: ws
-  port: 8880
-  server: 77.37.33.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|DE_speednode_0038
+- name: 14|DE_speednode_0026
   network: ws
   port: 8880
   server: 5.10.214.29
@@ -221,10 +172,59 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 350a45ac-80d5-4af2-9773-46fda82743db
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 14|DE_speednode_0027
+  network: ws
+  port: 8880
+  server: 45.80.111.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0028
+  network: ws
+  port: 8880
+  server: 5.10.215.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0029
+  network: ws
+  port: 8880
+  server: 77.37.33.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0030
+  network: ws
+  port: 8880
+  server: 89.116.46.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
