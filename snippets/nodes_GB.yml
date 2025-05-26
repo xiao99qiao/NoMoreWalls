@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 101 | 1x HK
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
+  name: 0|🇭🇰香港 101 官网：https://e8dh75.m5c...
+  password: 8f5a640e-e346-4e88-bd81-484fb8d2d91f
   port: 31141
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 101 | 1x UK
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
+  name: 0|🇬🇧英国家宽 101 官网：https://45wdpz.m...
+  password: 8f5a640e-e346-4e88-bd81-484fb8d2d91f
   port: 31271
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 官网：https://tmta9y.all...
-  password: db47a66c-cf14-4603-90b8-eeb5578e5a94
+  name: 14|🇭🇰 香港 01 官网：https://am9th3.a5b...
+  password: 7a6c19a8-f5e8-41b7-9b64-875a57cb6bf2
   port: 36141
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 官网：https://5vxjoe...
-  password: db47a66c-cf14-4603-90b8-eeb5578e5a94
+  name: 14|🇬🇧 英国住宅IP 01 官网：https://vtji5b...
+  password: 7a6c19a8-f5e8-41b7-9b64-875a57cb6bf2
   port: 36271
   server: freea.glyphara.com
   type: ss
