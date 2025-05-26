@@ -1,15 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 101 官网：https://usufq0.mi...
-  password: 8f5a640e-e346-4e88-bd81-484fb8d2d91f
-  port: 31511
-  server: freem.vidalith.com
+  name: 0|🇷🇺 俄罗斯 101 官网：https://蓝色海洋.xyz
+  password: 65838a3b-a977-42de-afc4-0dec583b6def
+  port: 36511
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺 俄罗斯 01 官网：https://蓝色海洋.xyz
-  password: 7a6c19a8-f5e8-41b7-9b64-875a57cb6bf2
-  port: 36511
-  server: freea.glyphara.com
+  name: 1|🇷🇺俄罗斯 101 官网：https://米卡莎.xyz
+  password: 85391f0c-e3d7-4ec5-8ee0-17a38dce4235
+  port: 31511
+  server: freem.vidalith.com
   type: ss
   udp: true
