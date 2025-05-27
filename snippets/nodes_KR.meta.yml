@@ -1,16 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|19🇰🇷韩国|官网：mikasacloud.site
-  password: 4ba0dba4-c94e-412b-a509-0d8163fecdb5
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|20🇰🇷韩国|官网：m5c3cloud.pro
-  password: 4ba0dba4-c94e-412b-a509-0d8163fecdb5
-  port: 31313
-  server: freem.vidalith.com
+  name: 0|16🇰🇷韩国|官网：abluecloud.xyz
+  password: 61e328e0-fc67-4462-a79b-5660926adc9e
+  port: 36311
+  server: freea.glyphara.com
   type: ss
   udp: true
 - name: 1|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
@@ -45,14 +38,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|16🇰🇷韩国|官网：蓝色海洋.xyz
-  password: 1233a452-23d9-465f-92b0-da2c1a5efa12
-  port: 36311
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- name: 11|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
+- name: 10|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
   server: 152.69.225.196
@@ -60,7 +46,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: 11|🇰🇷韩国15 | ⬇️ 10.9MB/s|62%|Disne...
+- name: 10|🇰🇷韩国15 | ⬇️ 10.9MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
   server: 193.123.250.219
@@ -68,3 +54,17 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|19🇰🇷韩国|官网：mikasacloud.site
+  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  port: 31311
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|20🇰🇷韩国|官网：mikasacloud.site
+  password: 94cb71fe-080b-4cb7-b4f0-2794fc0dba7c
+  port: 31313
+  server: freem.vidalith.com
+  type: ss
+  udp: true
