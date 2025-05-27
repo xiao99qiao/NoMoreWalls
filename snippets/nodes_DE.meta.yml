@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|29🇩🇪德国|官网：a5b3cloud.pro
-  password: 20d38022-5319-49d9-b42f-64a7226411f0
-  port: 36471
-  server: freea.glyphara.com
+  name: 0|33🇩🇪德国|官网：m5c3cloud.pro
+  password: 4ba0dba4-c94e-412b-a509-0d8163fecdb5
+  port: 31471
+  server: freem.vidalith.com
   type: ss
   udp: true
 - name: 1|🇩🇪1 |  1.5MB/s|0%|Openai
@@ -93,10 +93,10 @@ proxies:
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|33🇩🇪德国|官网：米卡莎.xyz
-  password: dd3b4897-3eff-4787-8993-b610601ebc11
-  port: 31471
-  server: freem.vidalith.com
+  name: 2|29🇩🇪德国|官网：蓝色海洋.xyz
+  password: 1233a452-23d9-465f-92b0-da2c1a5efa12
+  port: 36471
+  server: freea.glyphara.com
   type: ss
   udp: true
 - name: '11|Channel id: @ShadowProxy66🇩🇪'

@@ -1,23 +1,37 @@
 proxies:
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 0|4🇭🇰香港01|官网：米卡莎.xyz
+  port: 21141
+  reality-opts:
+    public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
+    short-id: ef355cf1
+  server: freem.vidalith.com
+  servername: blakeana.roamspheretours.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ba0dba4-c94e-412b-a509-0d8163fecdb5
 - cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：蓝色海洋.xyz
-  password: 20d38022-5319-49d9-b42f-64a7226411f0
+  name: 0|25🇬🇧英国家宽|官网：m5c3cloud.pro
+  password: 4ba0dba4-c94e-412b-a509-0d8163fecdb5
+  port: 31271
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|5🇭🇰香港|官网：蓝色海洋.xyz
+  password: 1233a452-23d9-465f-92b0-da2c1a5efa12
   port: 36141
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|21🇬🇧英国住宅IP|官网：蓝色海洋.xyz
-  password: 20d38022-5319-49d9-b42f-64a7226411f0
+  name: 2|21🇬🇧英国住宅IP|官网：a5b3cloud.pro
+  password: 1233a452-23d9-465f-92b0-da2c1a5efa12
   port: 36271
   server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|25🇬🇧英国家宽|官网：米卡莎.xyz
-  password: dd3b4897-3eff-4787-8993-b610601ebc11
-  port: 31271
-  server: freem.vidalith.com
   type: ss
   udp: true
 - name: 14|GB_speednode_0096
