@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|4🇭🇰香港01|官网：米卡莎.xyz
+  name: 0|4🇭🇰香港01|官网：mikasacloud.site
   port: 21141
   reality-opts:
     public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
@@ -12,10 +12,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f6a975a4-b38d-4930-bc76-8872a0566610
+  uuid: f9407087-cd68-42cf-8c34-a7d89025dcd1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|5🇭🇰香港02|官网：mikasacloud.site
+  name: 0|5🇭🇰香港02|官网：m5c3cloud.pro
   port: 21143
   reality-opts:
     public-key: Aefu3IA6fk1vUQio476AwY4NSshxmjjEpeWrvaqAtWg
@@ -26,10 +26,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f6a975a4-b38d-4930-bc76-8872a0566610
+  uuid: f9407087-cd68-42cf-8c34-a7d89025dcd1
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 0|6🇭🇰香港03|官网：米卡莎.xyz
+  name: 0|6🇭🇰香港03|官网：m5c3cloud.pro
   port: 21145
   reality-opts:
     public-key: _5oMsSEfgBhN4ZMasEwrUqss5GQkKdAtgoH2MzEVRA0
@@ -40,38 +40,24 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f6a975a4-b38d-4930-bc76-8872a0566610
+  uuid: f9407087-cd68-42cf-8c34-a7d89025dcd1
 - cipher: chacha20-ietf-poly1305
-  name: 0|8🇭🇰香港|官网：m5c3cloud.pro
-  password: f6a975a4-b38d-4930-bc76-8872a0566610
+  name: 0|8🇭🇰香港|官网：米卡莎.xyz
+  password: f9407087-cd68-42cf-8c34-a7d89025dcd1
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|9🇭🇰香港家宽|官网：米卡莎.xyz
-  password: f6a975a4-b38d-4930-bc76-8872a0566610
+  name: 0|9🇭🇰香港家宽|官网：m5c3cloud.pro
+  password: f9407087-cd68-42cf-8c34-a7d89025dcd1
   port: 31145
   server: freem.vidalith.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港|官网：a5b3cloud.pro
-  password: d0e379cd-05a4-493d-8894-7870eaa3b714
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
-  password: d0e379cd-05a4-493d-8894-7870eaa3b714
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -83,6 +69,20 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|6🇭🇰香港|官网：a5b3cloud.pro
+  password: 8b2c0db8-272a-4122-9292-40c20c3a95dd
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
+  password: 8b2c0db8-272a-4122-9292-40c20c3a95dd
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: '11|Channel id: @ShadowProxy66🇭🇰'
   password: NTA0MDg5OjEzMzI4ODo3YjA2ZDIyYThhN2M3NjRm
   port: 3074
