@@ -1114,7 +1114,7 @@ proxies:
   tls: true
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
-  name: '2,11|Channel id: @ShadowProxy66🇺🇸 #4'
+  name: '2,11|Channel id: @ShadowProxy66🇺🇸 #3'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1674,6 +1674,38 @@ proxies:
   sni: us-hy2.xlb8.eu.org
   tls: false
   type: hysteria2
+- name: 11|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
+  password: d62993f2-f2b7-410d-b56d-2cef2e971038
+  port: 35000
+  server: 152.69.225.196
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: 11|🇰🇷韩国15 | ⬇️ 10.9MB/s|62%|Disne...
+  password: d62993f2-f2b7-410d-b56d-2cef2e971038
+  port: 35000
+  server: 193.123.250.219
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: 11|تلگرام-iroazadi/shadownetvpn-گ...
+  password: 462a8e99-f369-469d-bd5b-ffbb9c3e5c7e
+  port: 2052
+  server: yd1.xiaofeixia.cyou
+  skip-cert-verify: true
+  sni: yd1.xiaofeixia.cyou
+  tls: false
+  type: hysteria2
+- name: 11|🇺🇸美国2 | ⬇️ 10.7MB/s|47%|Netfli...
+  password: dongtaiwang.com
+  port: 57773
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇺🇸'
   password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
   port: 3002
@@ -1694,14 +1726,6 @@ proxies:
   port: 3234
   server: 209.141.47.127
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #3'
-  password: dongtaiwang.com
-  port: 57773
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
   tls: false
   type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇷🇺'
@@ -1742,7 +1766,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #5'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #4'
   password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0
   port: 56381
   server: 107.172.235.75
@@ -1758,7 +1782,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #6'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #5'
   password: 41a11f83
   port: 60000
   server: 141.11.89.172
@@ -1766,7 +1790,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #7'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #6'
   password: 93c16258-48e0-4c72-928c-06434e394540
   port: 40266
   server: 107.175.32.131
@@ -1806,7 +1830,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #8'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #7'
   password: 238c7704-944d-40cd-a1cf-fb775d51ac54
   port: 21042
   server: 164.152.33.5
@@ -1823,7 +1847,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #9'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #8'
   password: 87f055ba
   port: 60000
   server: 141.11.89.172
@@ -1854,6 +1878,46 @@ proxies:
   server: 77.221.158.52
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 11|⚡️ @vpnserverrr (Hysteria)
+  obfs: salamander
+  obfs-password: Cui080924
+  password: 5gi8342LF4
+  port: 52045
+  server: bac.aelen.ggff.net
+  tls: false
+  type: hysteria2
+- name: '11|⚡️ @vpnserverrr (Hysteria) #2'
+  obfs: salamander
+  obfs-password: 6c80ade6
+  password: 18463200c271aa6d
+  port: 443
+  server: 45.63.116.113
+  skip-cert-verify: true
+  sni: vkvd127.mycdn.me
+  tls: false
+  type: hysteria2
+- name: '11|⚡️ @vpnserverrr (Hysteria) #3'
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 192.18.145.7
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '11|⚡️ @vpnserverrr (Hysteria) #4'
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 164.152.19.229
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 11|🇺🇸US- 🚀 @vpnserverrr
+  password: aa068abd-f858-4fdf-b7c2-101947f160cb
+  port: 443
+  server: us.xn--mes91t7ofgnw.com
   tls: false
   type: hysteria2
 - name: 11|sshocean VIP VPN ⭐
@@ -1920,70 +1984,6 @@ proxies:
   port: 80
   server: 195.128.240.251
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 11|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
-  password: d62993f2-f2b7-410d-b56d-2cef2e971038
-  port: 35000
-  server: 152.69.225.196
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: 11|🇰🇷韩国15 | ⬇️ 10.9MB/s|62%|Disne...
-  password: d62993f2-f2b7-410d-b56d-2cef2e971038
-  port: 35000
-  server: 193.123.250.219
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: 11|تلگرام-iroazadi/shadownetvpn-گ...
-  password: 462a8e99-f369-469d-bd5b-ffbb9c3e5c7e
-  port: 2052
-  server: yd1.xiaofeixia.cyou
-  skip-cert-verify: true
-  sni: yd1.xiaofeixia.cyou
-  tls: false
-  type: hysteria2
-- name: 11|⚡️ @vpnserverrr (Hysteria)
-  obfs: salamander
-  obfs-password: Cui080924
-  password: 5gi8342LF4
-  port: 52045
-  server: bac.aelen.ggff.net
-  tls: false
-  type: hysteria2
-- name: '11|⚡️ @vpnserverrr (Hysteria) #2'
-  obfs: salamander
-  obfs-password: 6c80ade6
-  password: 18463200c271aa6d
-  port: 443
-  server: 45.63.116.113
-  skip-cert-verify: true
-  sni: vkvd127.mycdn.me
-  tls: false
-  type: hysteria2
-- name: '11|⚡️ @vpnserverrr (Hysteria) #3'
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 192.18.145.7
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|⚡️ @vpnserverrr (Hysteria) #4'
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 164.152.19.229
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 11|🇺🇸US- 🚀 @vpnserverrr
-  password: aa068abd-f858-4fdf-b7c2-101947f160cb
-  port: 443
-  server: us.xn--mes91t7ofgnw.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb

@@ -784,7 +784,7 @@ proxies:
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
   client-fingerprint: chrome
-  name: '2,11|Channel id: @ShadowProxy66🇺🇸 #4'
+  name: '2,11|Channel id: @ShadowProxy66🇺🇸 #3'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1314,6 +1314,14 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
+- name: 11|🇺🇸美国2 | ⬇️ 10.7MB/s|47%|Netfli...
+  password: dongtaiwang.com
+  port: 57773
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇺🇸'
   password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
   port: 3002
@@ -1336,15 +1344,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #3'
-  password: dongtaiwang.com
-  port: 57773
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #5'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #4'
   password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0
   port: 56381
   server: 107.172.235.75
@@ -1352,7 +1352,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #6'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #5'
   password: 41a11f83
   port: 60000
   server: 141.11.89.172
@@ -1360,7 +1360,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #7'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #6'
   password: 93c16258-48e0-4c72-928c-06434e394540
   port: 40266
   server: 107.175.32.131
@@ -1368,7 +1368,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #8'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #7'
   password: 238c7704-944d-40cd-a1cf-fb775d51ac54
   port: 21042
   server: 164.152.33.5
@@ -1376,7 +1376,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #9'
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #8'
   password: 87f055ba
   port: 60000
   server: 141.11.89.172
