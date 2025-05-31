@@ -1685,14 +1685,6 @@ proxies:
   sni: ld-arm.nfsn666.gq
   tls: false
   type: hysteria2
-- name: '11|🔵🟡HYSs 🇺🇲 '
-  password: a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03
-  port: 443
-  server: 141.11.74.11
-  skip-cert-verify: true
-  sni: us-hy2.xlb8.eu.org
-  tls: false
-  type: hysteria2
 - name: 11|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
   password: d62993f2-f2b7-410d-b56d-2cef2e971038
   port: 35000
@@ -1715,6 +1707,14 @@ proxies:
   server: 108.181.5.130
   skip-cert-verify: true
   sni: apple.com
+  tls: false
+  type: hysteria2
+- name: '11|🔵🟡HYSs 🇺🇲 '
+  password: a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03
+  port: 443
+  server: 141.11.74.11
+  skip-cert-verify: true
+  sni: us-hy2.xlb8.eu.org
   tls: false
   type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇺🇸'
