@@ -1,18 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|4🇭🇰香港|官网：mikasacloud.site
-  password: b1bfbacf-1995-4299-9e36-64a836f9907f
-  port: 31141
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|5🇭🇰香港|官网：abluecloud.xyz
-  password: 6c915f1f-5c6c-498f-a1af-9472cea098e7
-  port: 36141
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - name: 14|GB_speednode_0070
   network: ws
   port: 8880
