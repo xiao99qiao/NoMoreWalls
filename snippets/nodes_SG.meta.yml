@@ -1,25 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|13🇸🇬新加坡|官网：米卡莎.xyz
-  password: 0d80d61d-be41-4e2e-8455-54c36ea70d19
-  port: 31171
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|14🇸🇬新加坡|官网：米卡莎.xyz
-  password: 0d80d61d-be41-4e2e-8455-54c36ea70d19
-  port: 31173
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|15🇸🇬新加坡|官网：m5c3cloud.pro
-  password: 0d80d61d-be41-4e2e-8455-54c36ea70d19
-  port: 31175
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
   name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
@@ -59,15 +38,15 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|14🇸🇬新加坡|官网：abluecloud.xyz
-  password: 86451ed1-901d-40c0-bbc6-57b6a7d42491
+  name: 2|14🇸🇬新加坡|官网：蓝色海洋.xyz
+  password: 97df681b-7620-4d36-88a5-1c1c92085cdb
   port: 36171
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|15🇸🇬新加坡|官网：a5b3cloud.pro
-  password: 86451ed1-901d-40c0-bbc6-57b6a7d42491
+  password: 97df681b-7620-4d36-88a5-1c1c92085cdb
   port: 36173
   server: freea.glyphara.com
   type: ss
