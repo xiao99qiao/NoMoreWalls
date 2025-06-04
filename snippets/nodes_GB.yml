@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|4🇭🇰香港|官网：m5c3cloud.pro
+  password: dd85d0af-15c0-4913-99ec-39e4e828dbdc
+  port: 31141
+  server: freem.vidalith.com
+  type: ss
+  udp: true
