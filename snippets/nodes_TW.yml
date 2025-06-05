@@ -1,42 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|7🇹🇼台湾|官网：mikasacloud.site
-  password: 60205aa7-7362-4512-8079-46e42916ae31
-  port: 31241
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|8🇹🇼台湾|官网：米卡莎.xyz
-  password: 60205aa7-7362-4512-8079-46e42916ae31
-  port: 31243
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|9🇹🇼台湾|官网：米卡莎.xyz
-  password: 60205aa7-7362-4512-8079-46e42916ae31
-  port: 31245
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|8🇹🇼台湾|官网：a5b3cloud.pro
-  password: 1589af6a-6def-46c6-a9cc-9436441a53e2
+  name: 0|8🇹🇼台湾|官网：a5b3cloud.pro
+  password: 36f9e09d-fe91-45c5-9133-c2268c49c3d7
   port: 36241
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|9🇹🇼台湾|官网：a5b3cloud.pro
-  password: 1589af6a-6def-46c6-a9cc-9436441a53e2
+  name: 0|9🇹🇼台湾|官网：蓝色海洋.xyz
+  password: 36f9e09d-fe91-45c5-9133-c2268c49c3d7
   port: 36243
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|10🇹🇼台湾|官网：a5b3cloud.pro
-  password: 1589af6a-6def-46c6-a9cc-9436441a53e2
+  name: 0|10🇹🇼台湾|官网：a5b3cloud.pro
+  password: 36f9e09d-fe91-45c5-9133-c2268c49c3d7
   port: 36245
   server: freea.glyphara.com
   type: ss
