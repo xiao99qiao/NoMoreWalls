@@ -1,21 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港|官网：蓝色海洋.xyz
-  password: e66cd988-35a8-46bd-8cbc-b421c0657006
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：abluecloud.xyz
-  password: e66cd988-35a8-46bd-8cbc-b421c0657006
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 0|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -27,6 +13,20 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|5🇭🇰香港|官网：mikasacloud.site
+  password: 60205aa7-7362-4512-8079-46e42916ae31
+  port: 31143
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|6🇭🇰香港家宽|官网：米卡莎.xyz
+  password: 60205aa7-7362-4512-8079-46e42916ae31
+  port: 31145
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - name: '10|Channel id: @ShadowProxy66🇭🇰'
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
@@ -241,16 +241,16 @@ proxies:
       Host: steep.skyfigure.top
     path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|5🇭🇰香港|官网：m5c3cloud.pro
-  password: 7f10e2f0-d802-4b63-8dc0-ecd2152c8d27
-  port: 31143
-  server: freem.vidalith.com
+  name: 14|6🇭🇰香港|官网：abluecloud.xyz
+  password: 1589af6a-6def-46c6-a9cc-9436441a53e2
+  port: 36143
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|6🇭🇰香港家宽|官网：m5c3cloud.pro
-  password: 7f10e2f0-d802-4b63-8dc0-ecd2152c8d27
-  port: 31145
-  server: freem.vidalith.com
+  name: 14|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 1589af6a-6def-46c6-a9cc-9436441a53e2
+  port: 36145
+  server: freea.glyphara.com
   type: ss
   udp: true
