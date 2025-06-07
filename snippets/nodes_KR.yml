@@ -1,9 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：蓝色海洋.xyz
-  password: cee53cdc-ccee-42a2-90b3-056bb3f0cf67
-  port: 36311
-  server: freea.glyphara.com
+  name: 0|16🇰🇷韩国|官网：mikasacloud.site
+  password: 15e46b48-b62d-4aa6-af77-f48d399653a6
+  port: 31311
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|17🇰🇷韩国|官网：米卡莎.xyz
+  password: 15e46b48-b62d-4aa6-af77-f48d399653a6
+  port: 31313
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -12,25 +19,18 @@ proxies:
   port: 15098
   server: 125.141.31.72
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|16🇰🇷韩国|官网：米卡莎.xyz
-  password: e4aae079-0e20-46c3-b8fc-ec8954b97017
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|17🇰🇷韩国|官网：m5c3cloud.pro
-  password: e4aae079-0e20-46c3-b8fc-ec8954b97017
-  port: 31313
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
+  name: 11|🇰🇷 韩国2|@ripaojiedian
   password: qwerREWQ@@
   port: 36379
   server: p080.panda001.net
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|16🇰🇷韩国|官网：a5b3cloud.pro
+  password: e5a87bb4-5b20-46ba-95f6-2c0314131b26
+  port: 36311
+  server: freea.glyphara.com
+  type: ss
+  udp: true
