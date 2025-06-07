@@ -1,434 +1,434 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|5🇭🇰香港|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36141
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36145
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|8🇹🇼台湾|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|8🇹🇼台湾|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36241
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|9🇹🇼台湾|官网：a5b3cloud.pro
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36243
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇹🇼台湾|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|10🇹🇼台湾|官网：蓝色海洋.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36245
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|11🇯🇵日本|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|12🇯🇵日本|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|13🇯🇵日本|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|13🇯🇵日本|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36115
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|14🇸🇬新加坡|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36171
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|15🇸🇬新加坡|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|15🇸🇬新加坡|官网：蓝色海洋.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36173
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：a5b3cloud.pro
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|16🇰🇷韩国|官网：abluecloud.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36311
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|17🇵🇭菲律宾|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36341
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|18🇺🇸美国|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36211
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|19🇺🇸美国住宅IP|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|19🇺🇸美国住宅IP|官网：abluecloud.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36213
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|20🇺🇸美国|官网：a5b3cloud.pro
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|20🇺🇸美国|官网：蓝色海洋.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36215
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|21🇲🇾马来西亚|官网：a5b3cloud.pro
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36721
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|22🇲🇾马来西亚|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36722
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|23🇮🇳西班牙|官网：a5b3cloud.pro
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|23🇮🇳西班牙|官网：abluecloud.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36741
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|24🇹🇭泰国|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|24🇹🇭泰国|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36731
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|25🇮🇳印度|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|25🇮🇳印度|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36371
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|26🇦🇺澳大利亚|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36411
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|27🇨🇦加拿大|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|27🇨🇦加拿大|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36441
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|28🇩🇪德国|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36471
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|29🇷🇺俄罗斯|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|29🇷🇺俄罗斯|官网：abluecloud.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36511
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|30🇹🇷土耳其|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36571
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|31🇺🇦乌克兰|官网：a5b3cloud.pro
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|31🇺🇦乌克兰|官网：蓝色海洋.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36611
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|32🇻🇳越南|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|32🇻🇳越南|官网：蓝色海洋.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36641
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|33🇧🇷巴西|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|33🇧🇷巴西|官网：abluecloud.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36671
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|34🇮🇩印度尼西亚|官网：蓝色海洋.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|34🇮🇩印度尼西亚|官网：abluecloud.xyz
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36677
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|4🇭🇰香港|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|4🇭🇰香港|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31141
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|5🇭🇰香港|官网：m5c3cloud.pro
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|5🇭🇰香港|官网：米卡莎.xyz
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港家宽|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|6🇭🇰香港家宽|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31145
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|7🇹🇼台湾|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|7🇹🇼台湾|官网：mikasacloud.site
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31241
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|8🇹🇼台湾|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31243
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|9🇹🇼台湾|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|9🇹🇼台湾|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31245
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|10🇯🇵日本|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|10🇯🇵日本|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|11🇯🇵日本|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|12🇯🇵日本|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|12🇯🇵日本|官网：米卡莎.xyz
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31115
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|13🇸🇬新加坡|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31171
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|14🇸🇬新加坡|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31173
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|15🇸🇬新加坡|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|15🇸🇬新加坡|官网：米卡莎.xyz
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31175
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|16🇰🇷韩国|官网：m5c3cloud.pro
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|16🇰🇷韩国|官网：米卡莎.xyz
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31311
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|17🇰🇷韩国|官网：m5c3cloud.pro
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|17🇰🇷韩国|官网：米卡莎.xyz
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31313
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|18🇵🇭菲律宾|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|18🇵🇭菲律宾|官网：mikasacloud.site
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31341
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|19🇺🇸美国|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|19🇺🇸美国|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31211
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|20🇺🇸美国家宽|官网：m5c3cloud.pro
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|20🇺🇸美国家宽|官网：米卡莎.xyz
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31213
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|21🇺🇸美国|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31215
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|25🇹🇭泰国 |官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|25🇹🇭泰国 |官网：mikasacloud.site
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31741
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|23🇲🇾马来西亚|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|23🇲🇾马来西亚|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31721
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|24🇲🇾马来西亚|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|24🇲🇾马来西亚|官网：mikasacloud.site
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31722
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|26🇮🇳印度|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31371
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|27🇦🇺澳大利亚|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|27🇦🇺澳大利亚|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31411
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|28🇨🇦加拿大|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|28🇨🇦加拿大|官网：米卡莎.xyz
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31441
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|29🇩🇪德国|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|29🇩🇪德国|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31471
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|30🇷🇺俄罗斯|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|30🇷🇺俄罗斯|官网：mikasacloud.site
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31511
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|31🇦🇷阿根廷|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|31🇦🇷阿根廷|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31541
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|32🇹🇷土耳其|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31571
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|33🇺🇦乌克兰|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|33🇺🇦乌克兰|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31611
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|34🇻🇳越南|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31641
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|35🇧🇷巴西|官网：mikasacloud.site
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|35🇧🇷巴西|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31671
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|36🇮🇩印度尼西亚|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|36🇮🇩印度尼西亚|官网：mikasacloud.site
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31677
   server: freem.vidalith.com
   type: ss
@@ -2516,9 +2516,9 @@ proxies:
   type: hysteria2
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
-  password: awsps0501
+  password: yijian0503
   port: 443
-  server: 57.180.28.64
+  server: 43.203.225.190
   tfo: false
   type: ss
 - alterId: 64
@@ -2542,7 +2542,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 11400
+  port: 37689
   server: 121.127.231.217
   tfo: false
   type: ss
@@ -2590,20 +2590,38 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- name: 12,13|香港7|@ripaojiedian
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 113.99.140.184
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 12|🇭🇰 香港8|@ripaojiedian
+  port: 59652
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 12,13|台湾|@ripaojiedian
   network: tcp
-  password: b483bf41-79d4-48df-bec6-30a756a3bd6b
-  port: 42765
-  server: js-12f83a8c.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
+  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
+  port: 443
+  server: hinet.mjt000.com
+  skip-cert-verify: false
+  sni: hinet.mjt000.com
   type: trojan
 - cipher: rc4-md5
   name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-Tbm8fXQu06.download.microsoft.com
+    host: 202505310989964-u6lMbYHt99.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2620,7 +2638,7 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 59333
+  port: 17018
   server: 43.226.17.11
   tfo: false
   type: ss
@@ -2682,7 +2700,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-Tbm8fXQu06.download.microsoft.com
+    host: 202505310989964-u6lMbYHt99.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -2706,10 +2724,10 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 12,13|美国5|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
-  port: '30828'
-  server: 111.26.109.79
+  port: '30824'
+  server: v24.heduian.link
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -2718,7 +2736,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ocbc.com
+      Host: v24.heduian.link
     path: /oooo
 - alterId: 2
   cipher: auto
@@ -2736,13 +2754,6 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇺🇸 美国6|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 35.89.114.253
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   name: 12|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -2776,6 +2787,16 @@ proxies:
   network: tcp
   port: '31209'
   server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13|香港8|@ripaojiedian
+  network: tcp
+  port: '59652'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess

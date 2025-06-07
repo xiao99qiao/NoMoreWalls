@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：abluecloud.xyz
-  password: 695dde50-270a-4cbf-a911-0916ca09a54f
+  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: f96f4928-475b-44af-8f45-cdf13b247d96
   port: 36145
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|5🇭🇰香港|官网：m5c3cloud.pro
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|5🇭🇰香港|官网：米卡莎.xyz
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港家宽|官网：米卡莎.xyz
-  password: 7e134445-7c21-4313-a1f7-7888c6a9af6d
+  name: 1|6🇭🇰香港家宽|官网：m5c3cloud.pro
+  password: ac56b00e-36ff-431f-a4bb-c1d9b5c721de
   port: 31145
   server: freem.vidalith.com
   type: ss
@@ -87,7 +87,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 11400
+  port: 37689
   server: 121.127.231.217
   tfo: false
   type: ss
@@ -139,6 +139,26 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- client-fingerprint: chrome
+  name: 12,13|香港7|@ripaojiedian
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 113.99.140.184
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港8|@ripaojiedian
+  port: 59652
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 13|香港|@ripaojiedian
@@ -165,6 +185,16 @@ proxies:
   network: tcp
   port: '31209'
   server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13|香港8|@ripaojiedian
+  network: tcp
+  port: '59652'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
