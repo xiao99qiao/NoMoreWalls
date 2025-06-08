@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|29🇩🇪德国|官网：m5c3cloud.pro
-  password: 1a5719b6-6dee-40be-8e87-11e812590869
+  name: 0|29🇩🇪德国|官网：mikasacloud.site
+  password: 7ec86a3e-9574-4a1d-899b-bdada3513d16
   port: 31471
   server: freem.vidalith.com
   type: ss

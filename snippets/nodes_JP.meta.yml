@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：米卡莎.xyz
-  password: 1a5719b6-6dee-40be-8e87-11e812590869
+  name: 0|10🇯🇵日本|官网：mikasacloud.site
+  password: 7ec86a3e-9574-4a1d-899b-bdada3513d16
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|11🇯🇵日本|官网：mikasacloud.site
-  password: 1a5719b6-6dee-40be-8e87-11e812590869
+  password: 7ec86a3e-9574-4a1d-899b-bdada3513d16
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：米卡莎.xyz
-  password: 1a5719b6-6dee-40be-8e87-11e812590869
+  name: 0|12🇯🇵日本|官网：m5c3cloud.pro
+  password: 7ec86a3e-9574-4a1d-899b-bdada3513d16
   port: 31115
   server: freem.vidalith.com
   type: ss
