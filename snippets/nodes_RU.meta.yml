@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|30🇷🇺俄罗斯|官网：米卡莎.xyz
-  password: 5ee835d0-86db-482f-afad-2b3a65113d30
-  port: 31511
-  server: freem.vidalith.com
+  name: 0|29🇷🇺俄罗斯|官网：蓝色海洋.xyz
+  password: bc3bbdd3-f671-4b18-bf20-49c26fe1e76a
+  port: 36511
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alpn:
@@ -53,10 +53,3 @@ proxies:
   type: http
   udp: true
   username: tqqlqvxj@mayorlogistic.com
-- cipher: chacha20-ietf-poly1305
-  name: 14|29🇷🇺俄罗斯|官网：abluecloud.xyz
-  password: 223d204b-19be-4ed7-a9c0-bd37134d5c97
-  port: 36511
-  server: freea.glyphara.com
-  type: ss
-  udp: true
