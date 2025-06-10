@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：abluecloud.xyz
-  password: 6ed383d0-1707-49d6-956b-27fe00950da2
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：蓝色海洋.xyz
-  password: 6ed383d0-1707-49d6-956b-27fe00950da2
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|13🇯🇵日本|官网：abluecloud.xyz
-  password: 6ed383d0-1707-49d6-956b-27fe00950da2
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|10🇯🇵日本|官网：mikasacloud.site
-  password: dab90df7-ed2c-4424-9631-29e7e4c2c691
+  name: 0|10🇯🇵日本|官网：米卡莎.xyz
+  password: 2b8cadc5-1093-4dbc-8dd7-dbeac037d425
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|11🇯🇵日本|官网：米卡莎.xyz
-  password: dab90df7-ed2c-4424-9631-29e7e4c2c691
+  name: 0|11🇯🇵日本|官网：米卡莎.xyz
+  password: 2b8cadc5-1093-4dbc-8dd7-dbeac037d425
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|12🇯🇵日本|官网：米卡莎.xyz
-  password: dab90df7-ed2c-4424-9631-29e7e4c2c691
+  name: 0|12🇯🇵日本|官网：m5c3cloud.pro
+  password: 2b8cadc5-1093-4dbc-8dd7-dbeac037d425
   port: 31115
   server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|11🇯🇵日本|官网：abluecloud.xyz
+  password: c108936a-7a6c-4b57-8da0-b013f9ea8977
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|12🇯🇵日本|官网：a5b3cloud.pro
+  password: c108936a-7a6c-4b57-8da0-b013f9ea8977
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|13🇯🇵日本|官网：蓝色海洋.xyz
+  password: c108936a-7a6c-4b57-8da0-b013f9ea8977
+  port: 36115
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alterId: 64
@@ -57,14 +57,6 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- name: '11|Channel id: @ShadowProxy66🇯🇵'
-  password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
-  port: 443
-  server: 154.85.18.233
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian

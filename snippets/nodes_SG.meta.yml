@@ -1,37 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|14🇸🇬新加坡|官网：a5b3cloud.pro
-  password: 6ed383d0-1707-49d6-956b-27fe00950da2
-  port: 36171
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|15🇸🇬新加坡|官网：a5b3cloud.pro
-  password: 6ed383d0-1707-49d6-956b-27fe00950da2
-  port: 36173
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|13🇸🇬新加坡|官网：米卡莎.xyz
-  password: dab90df7-ed2c-4424-9631-29e7e4c2c691
+  name: 0|13🇸🇬新加坡|官网：米卡莎.xyz
+  password: 2b8cadc5-1093-4dbc-8dd7-dbeac037d425
   port: 31171
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|14🇸🇬新加坡|官网：mikasacloud.site
-  password: dab90df7-ed2c-4424-9631-29e7e4c2c691
+  name: 0|14🇸🇬新加坡|官网：mikasacloud.site
+  password: 2b8cadc5-1093-4dbc-8dd7-dbeac037d425
   port: 31173
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|15🇸🇬新加坡|官网：mikasacloud.site
-  password: dab90df7-ed2c-4424-9631-29e7e4c2c691
+  name: 0|15🇸🇬新加坡|官网：m5c3cloud.pro
+  password: 2b8cadc5-1093-4dbc-8dd7-dbeac037d425
   port: 31175
   server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|14🇸🇬新加坡|官网：abluecloud.xyz
+  password: c108936a-7a6c-4b57-8da0-b013f9ea8977
+  port: 36171
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|15🇸🇬新加坡|官网：a5b3cloud.pro
+  password: c108936a-7a6c-4b57-8da0-b013f9ea8977
+  port: 36173
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alterId: 64
@@ -77,22 +77,6 @@ proxies:
   port: 28264
   server: 92.112.23.216
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇸🇬 #1'
-  password: cdb63ff9-1767-4a35-97e5-900048e4feb2
-  port: 443
-  server: 104.192.92.99
-  skip-cert-verify: true
-  sni: tms.dingtalk.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇸🇬 #2'
-  password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
-  port: 25022
-  server: 51.79.141.63
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - alterId: 2
