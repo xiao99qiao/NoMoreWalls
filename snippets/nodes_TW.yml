@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 101 | 1x TW
-  password: 8529f599-fa64-4649-809f-8aa9bd8af8c9
+  password: f2c35c38-6b49-452e-b541-65078bea5fa5
   port: 36241
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 102 | 1x TW
-  password: 8529f599-fa64-4649-809f-8aa9bd8af8c9
+  password: f2c35c38-6b49-452e-b541-65078bea5fa5
   port: 36243
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 103 | 1x TW
-  password: 8529f599-fa64-4649-809f-8aa9bd8af8c9
+  password: f2c35c38-6b49-452e-b541-65078bea5fa5
   port: 36245
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 101 | 1x TW
-  password: acec29d6-0805-4f8a-93a2-91ef1a9ad85d
+  name: 2|🇹🇼台湾 101 | 1x TW
+  password: c1d0a88a-5f9b-4b39-8f27-6c38019631de
   port: 31241
   server: freem.vidalith.com
   type: ss
