@@ -17,21 +17,21 @@ proxies:
     path: /634c5c4f9782
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵 日本 101 | 1x JP
-  password: d1971339-e0c0-41cc-a016-8db5e03e1c87
+  password: 33df2441-1f29-4bd4-ba9c-e4412c58e8f6
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵 日本 102 | 1x JP
-  password: d1971339-e0c0-41cc-a016-8db5e03e1c87
+  password: 33df2441-1f29-4bd4-ba9c-e4412c58e8f6
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵 日本 103 | 1x JP
-  password: d1971339-e0c0-41cc-a016-8db5e03e1c87
+  password: 33df2441-1f29-4bd4-ba9c-e4412c58e8f6
   port: 36115
   server: freea.glyphara.com
   type: ss
@@ -67,7 +67,7 @@ proxies:
   plugin-opts:
     host: kr6v1.dashengjs.net
     mode: websocket
-    mux: false
+    mux: true
     path: /bylnxldqaquw
     skip-cert-verify: false
     tls: true
