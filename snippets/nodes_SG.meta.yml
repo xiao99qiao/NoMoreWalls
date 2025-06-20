@@ -37,7 +37,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: '10|Channel id: @ShadowProxy66🇸🇬'
+- name: '11|Channel id: @ShadowProxy66🇸🇬'
   password: 9FmazX8AAPpM8TQcNyI2zvBDF5o
   port: 28264
   server: 92.112.23.216
@@ -46,7 +46,18 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 12|新加坡|@ripaojiedian
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  port: 50152
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡|@ripaojiedian
   network: kcp
   port: '51713'
   server: 8.219.72.131
@@ -56,7 +67,7 @@ proxies:
   uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
 - alterId: 0
   cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '50152'
   server: 120.232.153.40
