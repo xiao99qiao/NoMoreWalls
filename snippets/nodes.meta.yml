@@ -1666,23 +1666,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@Filter_breaker '
-  password: 998d8c6e-cbdb-4836-9fde-fe3eecb321d4
-  port: 22159
-  server: hsadly.huasuan666.top
-  skip-cert-verify: true
-  sni: hsadly.huasuan666.top
-  tls: false
-  type: hysteria2
-- name: '10|@Filter_breaker  #1'
-  password: 998d8c6e-cbdb-4836-9fde-fe3eecb321d4
-  port: 22156
-  server: hsyg.huasuan666.top
-  skip-cert-verify: true
-  sni: hsyg.huasuan666.top
-  tls: false
-  type: hysteria2
-- name: 10|🇱@𝗩کا ا
+- name: 10|🇱@ا ا
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
@@ -1692,7 +1676,7 @@ proxies:
   sni: sinavm.sinavm.ir
   tls: false
   type: hysteria2
-- name: 10|🇩@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+- name: 10|@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
@@ -1891,7 +1875,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506212021989-5pgsEe2BPt.download.microsoft.com
+    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1955,7 +1939,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506212021989-5pgsEe2BPt.download.microsoft.com
+    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
