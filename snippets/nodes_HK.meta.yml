@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 0|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -13,6 +13,14 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- name: '9,10|Telegram:@config_proxy 😍 #1'
+  password: 928a3318-b103-4f5f-ac80-1efd6f05d3d7
+  port: 50000
+  server: 47.238.98.245
+  skip-cert-verify: true
+  sni: ali.xiao666666.site
+  tls: false
+  type: hysteria2
 - name: 9|🇭🇰香港
   password: Wo9rLCYw6gzcfTgIu11mhBVciVs
   port: 29282
@@ -35,7 +43,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9,10|NetAccount #2'
+- name: '9,10|Telegram:@config_proxy 😍 #6'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
