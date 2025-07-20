@@ -1388,6 +1388,23 @@ proxies:
   sni: us.10101251.xyz
   tls: false
   type: hysteria2
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|美国|@ripaojiedian
+  network: ws
+  port: '30804'
+  server: v4.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国2|@ripaojiedian

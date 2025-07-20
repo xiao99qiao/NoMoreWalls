@@ -1813,6 +1813,22 @@ proxies:
   sni: gb.gomeow.online
   tls: false
   type: hysteria2
+- name: 10|@_
+  password: 196d331c-9a7d-4a8a-990e-f8babff27412
+  port: 35789
+  server: jpcn286.s2fjeyeeyafe.bond
+  skip-cert-verify: true
+  sni: jpcn286.s2fjeyeeyafe.bond
+  tls: false
+  type: hysteria2
+- name: 10|@ᴅᴀɪʟʏ_ᴄᴏɴꜰɪɢꜱ
+  password: 196d331c-9a7d-4a8a-990e-f8babff27412
+  port: 35789
+  server: us10.s2fjeyeeyafe.bond
+  skip-cert-verify: true
+  sni: us10.s2fjeyeeyafe.bond
+  tls: false
+  type: hysteria2
 - name: '10|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: de8287cd33b05fa3
@@ -1839,7 +1855,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: 10|کان ی یشر ر ن تلگرام💎 @Config_...
+- name: '10|@ata_connect  ا ا ن   '
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 30000
   server: 79.72.81.183
@@ -2022,13 +2038,13 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #1'
+- name: 10|ما  @V2xay
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   port: 35000
   server: 77.90.52.69
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: pichondan.com
   tls: false
   type: hysteria2
@@ -2151,7 +2167,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #3'
+- name: '10|@Daily_Configs #1'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -2330,7 +2346,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|کانفیگ های بیشتر در چنل تلگرام...
+- name: 10|کان ی یش ر ن تلگرام💎 @Config_R...
   password: dongtaiwang.com
   port: 30033
   server: 46.17.41.217
@@ -2721,9 +2737,9 @@ proxies:
   type: hysteria2
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 13.212.193.32
+  server: 35.86.251.49
   tfo: false
   type: ss
 - alterId: 2
@@ -2759,20 +2775,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12,13|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 2112e4.7d79233c.shop
-  servername: ''
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  port: 13584
+  server: 38.147.189.50
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf
-  ws-opts:
-    headers:
-      Host: hk01s.7d79233c.shop
-    path: /
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -2831,18 +2841,25 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 12,13|韩国|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 16158
-  server: 36.151.192.239
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇯🇵 日本5|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 13.158.56.180
+  tfo: false
+  type: ss
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32063
+  server: 36.151.192.239
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 12,13|韩国|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 4448
   server: 36.151.192.239
   skip-cert-verify: true
   sni: www.baidu.com
@@ -2857,11 +2874,27 @@ proxies:
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 12|🇸🇬 新加坡3|@ripaojiedian
-  password: 24Wk2NSszrfHn22zem1lYV
-  port: 37708
-  server: 188.166.220.70
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 54.169.45.155
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 12,13|美国|@ripaojiedian
+  network: ws
+  port: '30804'
+  server: v4.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - cipher: rc4-md5
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
@@ -2889,13 +2922,16 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-gcm
-  name: 12|🇦🇹 奥地利|@ripaojiedian
-  password: TG:@Enkelte_notif&&TG:@Notif_Chat
-  port: 34045
-  server: 152.53.2.128
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港3|@ripaojiedian
+  network: tcp
+  port: '13584'
+  server: 38.147.189.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
 - alterId: 0
   cipher: auto
   name: 13|香港v2|@ripaojiedian
