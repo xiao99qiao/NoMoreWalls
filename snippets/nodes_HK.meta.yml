@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 8|🇰香港2
+- name: 9|🇰香港2
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
   server: 89.185.27.133
@@ -21,21 +21,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 8|🇭🇰香港
+- name: 9|🇭🇰香港
   password: Wo9rLCYw6gzcfTgIu11mhBVciVs
   port: 29282
   server: 47.74.34.102
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '8|🇭🇰香港 #1'
+- name: '9|🇭🇰香港 #1'
   password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c
   port: 63518
   server: ovo.5188666.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|🇭🇰香港2
+- name: 9|🇭🇰香港2
   password: b866d83a-d301-4270-b699-40f322bf52fb
   port: 443
   server: 89.185.27.133
@@ -43,7 +43,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|Channel id: @ShadowProxy66🇭🇰'
+- name: '9|Channel id: @ShadowProxy66🇭🇰'
   password: cc83a02b-90ea-403b-9c76-27e4be95f637
   port: 50256
   server: 154.204.181.230
@@ -51,7 +51,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|Channel id: @ShadowProxy66🇭🇰 #1'
+- name: '9|Channel id: @ShadowProxy66🇭🇰 #1'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -62,7 +62,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港|@ripaojiedian
+  name: 12,13|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -78,7 +78,7 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 9bfdde71b4c0
   plugin: v2ray-plugin
   plugin-opts:
@@ -95,7 +95,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 51527
   server: 38.147.188.109
   skip-cert-verify: false
@@ -104,7 +104,7 @@ proxies:
   type: vmess
   uuid: 861a3fbe-e925-4163-9c28-2413abd580af
 - client-fingerprint: chrome
-  name: 11,12|香港4|@ripaojiedian
+  name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 447
@@ -113,16 +113,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 11,12|香港5|@ripaojiedian
-  network: tcp
-  password: 02491ccf-e969-4200-9ebd-5e0da4eff308
-  port: 23003
-  server: okanc.iepl.cac.cab
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 11,12|香港6|@ripaojiedian
+  name: 12,13|香港6|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 444
@@ -132,7 +123,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
   port: '51527'
   server: 38.147.188.109
@@ -142,7 +133,7 @@ proxies:
   uuid: 861a3fbe-e925-4163-9c28-2413abd580af
 - alterId: 0
   cipher: auto
-  name: 12|香港v2|@ripaojiedian
+  name: 13|香港v2|@ripaojiedian
   network: kcp
   port: '32791'
   server: 47.243.95.92
