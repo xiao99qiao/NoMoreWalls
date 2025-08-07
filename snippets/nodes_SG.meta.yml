@@ -61,13 +61,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇸🇬 #1'
-  password: 9FmazX8AAPpM8TQcNyI2zvBDF5o
-  port: 28264
-  server: 92.112.23.216
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280

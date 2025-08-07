@@ -784,7 +784,7 @@ proxies:
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
   client-fingerprint: chrome
-  name: '1,9,11|Channel id: @ShadowProxy66🇺🇸 #6'
+  name: '1,9|Channel id: @ShadowProxy66🇺🇸'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1353,49 +1353,6 @@ proxies:
   port: 443
   server: 143.198.235.49
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #5'
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.207.162
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #7'
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: e3f67f43-9097-4e56-96e2-681910b92150
-  port: 35091
-  server: 172.245.106.236
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #8'
-  password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
-  port: 45551
-  server: 75.127.13.83
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #9'
-  obfs: salamander
-  obfs-password: fWQ4LCfAYiKaEVRe
-  password: e3f67f43-9097-4e56-96e2-681910b92150
-  port: 22647
-  server: 107.175.145.72
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #10'
-  password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
-  port: 3002
-  server: 107.175.34.118
-  sni: us.10101251.xyz
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
