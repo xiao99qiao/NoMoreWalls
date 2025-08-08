@@ -2535,6 +2535,14 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+  password: xnChC7dKZ8
+  port: 443
+  server: android.yas-nowin.ir
+  skip-cert-verify: false
+  sni: android.yas-nowin.ir
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
