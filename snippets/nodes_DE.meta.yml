@@ -1,14 +1,4 @@
 proxies:
-- name: 9|ا 🇩🇪 @V2xay
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
 - name: 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
   password: xnChC7dKZ8
   port: 443
