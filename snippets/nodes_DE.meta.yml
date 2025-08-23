@@ -1,20 +1,12 @@
 proxies:
-- name: 9|DE
-  password: 7JnRmdeMP4gsvp0nXjYofBNvsdk
-  port: 7414
-  server: 3.75.180.49
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
+- name: 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
   password: Bz0jKM83wa
   port: 443
   server: android.yas-nowin.ir
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- name: '10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
+- name: '9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
   password: J7VnJazPBw
   port: 443
   server: android.yas-nowin.ir
@@ -22,7 +14,7 @@ proxies:
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- name: 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+- name: 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
   password: xnChC7dKZ8
   port: 443
   server: android.yas-nowin.ir
