@@ -189,7 +189,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 ➠ همه اپراتورها دنو براه V2...
+- name: 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دنو ...
   password: zPb5RRsckD
   port: 443
   server: android.yas-nowin.ir
