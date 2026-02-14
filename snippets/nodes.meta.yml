@@ -7,7 +7,15 @@ proxies:
   sni: mlxy1.xiaoliyu.us
   tls: false
   type: hysteria2
-- name: '9|@Trick_mobil #1'
+- name: '9,10|سرور های پرسرعت بیشتر در چنل🌋@... #1'
+  password: 04c2a097-5ed8-49b6-9860-cb4667583745
+  port: 2056
+  server: mlxy2.xiaoliyu.us
+  skip-cert-verify: true
+  sni: mlxy2.xiaoliyu.us
+  tls: false
+  type: hysteria2
+- name: '9|@Trick_mobil #2'
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
@@ -93,14 +101,6 @@ proxies:
   server: 130.61.50.75
   skip-cert-verify: true
   sni: dash.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '10|سرور های پرسرعت بیشتر در چنل🌋@... #1'
-  password: 04c2a097-5ed8-49b6-9860-cb4667583745
-  port: 2056
-  server: mlxy2.xiaoliyu.us
-  skip-cert-verify: true
-  sni: mlxy2.xiaoliyu.us
   tls: false
   type: hysteria2
 - name: 10|Telegram = @SOSkeyNET
