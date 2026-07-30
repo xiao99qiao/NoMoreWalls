@@ -8,7 +8,7 @@ hysteria2://4z2oldt85p494bgb@assets.gateway-stream.com:52060?insecure=0&sni=asse
 hysteria2://4z2oldt85p494bgb@assets.gateway-stream.com:52061?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=fd3olglr2bmimgje#8%7C%20%20%D8%A7%DB%8C%20%20%20TelegramID%20Express_free...
 hysteria2://68b4b16e-2759-47a4-8a69-33118edf5ce6@150.241.124.145:443?sni=ger.leontunel.ru#8%7C%F0%9F%90%B055%40oneclickvpnkeys
 hysteria2://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@usa1.spectrumproxy.shop:443?sni=usa1.spectrumproxy.shop#8%7C%F0%9F%90%B052%40oneclickvpnkeys
-hysteria2://84eyebdtl3tcbssn@assets.gateway-stream.com:52060?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=l960g2kn19nphlra#8%7C%F0%9D%97%B2%F0%9D%97%B6%EF%B8%8F%40prrofile_purple%20
+hysteria2://84eyebdtl3tcbssn@assets.gateway-stream.com:52060?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=l960g2kn19nphlra#8%7C%F0%9D%97%A1%F0%9D%97%B2%F0%9D%97%A7%F0%9D%97%A0%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B6%E2%9A%A1%EF%B8%8F%40prrofile_purple%20%F0%9F%8C%A9
 hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@76.164.202.214:8443?sni=mercedes-grape.yyuyy.com#8%7C60%40oneclickvpnkeys
 hysteria2://AstroVPN_official@hystry.accuratenetworkchecker.ir:8083?insecure=0&sni=vhd.nth.gelzaro.ir&obfs=salamander&obfs-password=4b6gmo4jujpapx99#8%7C%D8%B1%D8%B1%20%E2%9A%A1
 hysteria2://EaDTeupk9I@91.107.178.22:43913?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=V2RayyNGvpn#8%7C%F0%9F%87%A9%F0%9F%87%AA%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA
