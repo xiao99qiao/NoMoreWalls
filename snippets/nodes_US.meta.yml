@@ -1,31 +1,13 @@
 proxies:
-- name: 8|🇺🇸125599 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: bjmye80g9o99qohl
-  password: 1ecqm05bcdfcckq5
-  port: 59265
-  server: soskeynets.dnso.ccwu.cc
-  skip-cert-verify: true
-  sni: apic.dnso.ccwu.cc
-  tls: false
-  type: hysteria2
-- name: 8|🇺🇸125595 | ⚡️Telegram = t.me/S...
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: soskeynets.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-- name: 10,11|美国|@ripaojiedian
+- name: 10,11|美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 17005
-  server: 54.46.50.201
+  port: 49277
+  server: 18.181.205.36
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|美国2|@ripaojiedian
-  network: tcp
+- name: 10|🇺🇸 美国2|@ripaojiedian
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 57.183.19.130
@@ -35,8 +17,8 @@ proxies:
 - name: 10,11|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38961
-  server: 18.166.236.71
+  port: 15775
+  server: 54.46.46.228
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
