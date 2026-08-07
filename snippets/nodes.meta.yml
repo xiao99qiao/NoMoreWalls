@@ -226,12 +226,43 @@ proxies:
   sni: dg1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '8|未命名 #6'
+- name: 8|🇬136392 | Telegram = t.me/SOSk...
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2055
+  server: soskeynets.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 8|🇸🇬136398 | ⚡️Telegram = t.me/S...
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: soskeynets.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp3.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 8|44@oneclickvpnkeys
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: xby.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 8|40@oneclickvpnkeys
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2055
   server: xjp1.mangshe.xyz
   skip-cert-verify: true
   sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 8|41@oneclickvpnkeys
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: xjp3.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp3.mangshe.xyz
   tls: false
   type: hysteria2
 - name: 8|瑞
@@ -241,19 +272,19 @@ proxies:
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: 8|🇷136224 | Telegram = t.me/SOSk...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 15.237.219.57
-  skip-cert-verify: true
-  sni: https://t.me/clashv8🇨
-  tls: false
-  type: hysteria2
 - name: 8|🇭🇰HK
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 8|38@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: 202.146.222.29
   tls: false
   type: hysteria2
 - name: '8|国 #2'
@@ -262,6 +293,14 @@ proxies:
   server: 3.36.89.239
   skip-cert-verify: true
   sni: vpn-kr-003.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 8|42@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: 8|🇱
@@ -318,6 +357,13 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 8|39@oneclickvpnkeys
+  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  port: 8443
+  server: 209.74.81.28
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 8|亚
@@ -448,13 +494,6 @@ proxies:
   sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
-- name: 9|5@oneclickvpnkeys
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
 - name: 9|26@SHAHSERVER1
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
@@ -478,22 +517,6 @@ proxies:
   sni: flkf3.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 9|🇩🇪136205 | ⚡️Telegram = t.me/S...
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: soskeynets.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9|95@oneclickvpnkeys
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: xby.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: '9|اا تلگرام : https://t.me/Astro...'
   obfs: salamander
   obfs-password: 4b6gmo4jujpapx99
@@ -514,7 +537,7 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: 9|💫37@oneclickvpnkeys
+- name: 9|37@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 15.237.219.57
@@ -534,14 +557,6 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 51.44.213.137
-  skip-cert-verify: true
-  sni: vpn-fr-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 9|136223 | ⚡️Telegram = t.me/SOS...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-fr-002.fastervpn.world
   tls: false
