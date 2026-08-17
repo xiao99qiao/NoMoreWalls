@@ -1,5 +1,5 @@
 proxies:
-- name: '8,9|اا تلگرام : Free_VPN_CH@'
+- name: '8,9|ا تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -32,7 +32,7 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: 9||DE|@wxgqlfx|22
+- name: 9|🇩🇪|DE|@wxgqlfx|22
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
