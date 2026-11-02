@@ -1,10 +1,9 @@
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#8%2C9%7C%40KAFING_2
-hysteria2://2a0fc918-9c61-451b-a9ad-e8f796e70f52@177.3.220.9:443?sni=nl1.obxodvpn.us#9%7C%F0%9F%8E%8362%40oneclickvpnkeys
+hysteria2://0zy7kb86chk9ktbn@dlwww.mymuic.ir:19883?insecure=0&alpn=h3%2Ch2%2Chttp/1.1&sni=dlwww.mymuic.ir&obfs=salamander&obfs-password=otwmdcyqh98idcxv#9%7C%F0%9F%87%AB%F0%9F%87%AE204871%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
 hysteria2://2a0fc918-9c61-451b-a9ad-e8f796e70f52@45.192.12.83:443?insecure=1&sni=nl1.obxodvpn.us#9%7C%F0%9F%8E%8344%40oneclickvpnkeys
-hysteria2://2a0fc918-9c61-451b-a9ad-e8f796e70f52@9.247.54.69:443?insecure=1&sni=nl1.obxodvpn.us#9%7C%F0%9F%8E%8312%40oneclickvpnkeys
-hysteria2://59018379-d5df-4314-ab23-df0e838d7953@198.13.140.193:443?sni=efa11.lumariqis.com&obfs=salamander&obfs-password=litevpn#9%7C7%40oneclickvpnkeys
+hysteria2://59018379-d5df-4314-ab23-df0e838d7953@198.13.140.193:443?sni=efa11.lumariqis.com&obfs=salamander&obfs-password=litevpn#9%7C%E2%9A%A17%40oneclickvpnkeys
 hysteria2://5bcodmhjtyfyyrqh@91.142.73.159:36758?insecure=1&sni=cdn77.dmtr.ru&obfs=salamander&obfs-password=dzcb7hv6i2kx2zze#9%7C%40Begoo_VPN%20
-hysteria2://63e1b9462d708b56d5d5a0267cffecdc@88.216.195.188:443?sni=promo3.goonars.com#9%7C%F0%9F%87%BA%F0%9F%87%B8US-%40VPNine1
+hysteria2://63e1b9462d708b56d5d5a0267cffecdc@88.216.195.188:443?sni=promo3.goonars.com#9%7C204811%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/SOS...
 hysteria2://6aab8efdf13945829ae3699c342be406@31.76.80.69:443?insecure=0&sni=fiproxy1.lockdwn.com&obfs=salamander&obfs-password=uw9b2qq5rx#9%7CTelegram%3A%40v2rayng3
 hysteria2://6da2c981-8c77-4340-bda3-93399b7aea26@163.245.41.48:443?sni=blogs.blog-forme.ru#9%7C%F0%9F%8E%8337%40oneclickvpnkeys
 hysteria2://6da2c981-8c77-4340-bda3-93399b7aea26@195.63.146.10:443?sni=video.blog-forme.ru#9%7C%F0%9F%8E%8391%40oneclickvpnkeys
@@ -23,6 +22,7 @@ hysteria2://Telegram%40vpnjey@179.61.138.145:54759?insecure=1&obfs=salamander&ob
 hysteria2://VPNJEY@179.61.138.145:36264?insecure=1&sni=de2.jey.cc.cd&obfs=salamander&obfs-password=Telegram@vpnjey#9%7CTelegram%40vpnjey%20%236
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?insecure=1&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#9%7C%20-%20NL%20-%20%40FreeOnlineVPN
 hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.188.142:4444?insecure=0&sni=bl1.nexfile.net#9%7C%20%D8%A7%D9%84%20%D8%A7%DB%8C%20%20%20TelegramID%20Express_fr...
+hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.188.143:4444?insecure=1&sni=bl1.nexfile.net#9%7C%40FXxNET%E2%9A%A1%EF%B8%8F
 hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.105:4444?insecure=1&sni=pl2.nexfile.net#9%7C%F0%9F%8E%8393%40oneclickvpnkeys
 hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.106:4444?sni=pl2.nexfile.net#9%7C%F0%9F%8E%8394%40oneclickvpnkeys
 hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.96:4444?insecure=1&sni=pl3.nexfile.net#9%7C%F0%9F%8E%8334%40oneclickvpnkeys
@@ -31,9 +31,9 @@ hysteria2://e48078c8-21ae-4d27-9438-b85492972894@84.245.18.209:443?sni=hy.gerqix
 hysteria2://e5ec2586-59b3-40fa-91b7-bb37a2f7744e@45.88.12.26:443?sni=crt.onecloudstream.com#9%7C%E2%9A%A18%40oneclickvpnkeys
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@nas.aizhzo.com:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9#9%7C%F0%9F%87%BA%F0%9F%87%B8204817%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
 hysteria2://f04i31zq8sy80v9b@r5ycmuko.zibayeman.com:54280?insecure=0&sni=r5ycmuko.zibayeman.com&obfs=salamander&obfs-password=hfwq51con9efdxx6#9%7C%F0%9F%87%B3%F0%9F%87%B1204818%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
-hysteria2://fmaznn1lrzys7ddy@giftcard.gateway-stream.com:52076?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C204819%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/SOS...
+hysteria2://fmaznn1lrzys7ddy@giftcard.gateway-stream.com:52076?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%AB%F0%9F%87%AE204819%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
 hysteria2://gf1@173.212.201.85:443?insecure=1&sni=www.docker.com#9%7C39%40oneclickvpnkeys
-hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?insecure=0&sni=hy2.aspidnet.xyz&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3#9%7C%F0%9F%87%B1204820%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/SO...
+hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?insecure=0&sni=hy2.aspidnet.xyz&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3#9%7C%F0%9F%87%B3%F0%9F%87%B1204820%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
 hysteria2://rjj39jg8iphgd06h@pro2.riziro.ir:44100?alpn=h3&fp=chrome&sni=pro2.riziro.ir&obfs=salamander&obfs-password=2gg0tx9d2etug8n9#9%7Chysteria
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52050?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%AB%F0%9F%87%AE204821%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
 hysteria2://tnnls@bwdf2fnt.xn--e1aatfr8bwa.online:443?insecure=0&sni=bwdf2fnt.xn--e1aatfr8bwa.online&obfs=salamander&obfs-password=b6d1f3888ab1d90dd11aac1dce427b81#9%7C%F0%9F%87%A9%F0%9F%87%AA204822%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
@@ -78,3 +78,4 @@ vless://fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87@193.160.141.27:443?allowInsecure=0&
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@mx001.zestapp778.com:19167?allowInsecure=0&sni=mx001.zestapp778.com&fp=chrome&security=tls#13%7CUS_speednode_0042
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.18.208:54857?allowInsecure=0&sni=us001.zestapp778.com&fp=firefox&security=tls#13%7CUS_speednode_0043
 hhy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.213.89.22:443?insecure=1&sni=vk.com&type=tcp&allowInsecure=1&upmbps=10&downmbps=50#139909 | Telegram = t.me/SOSkeyNET
+hhysteria2://2a0fc918-9c61-451b-a9ad-e8f796e70f52@177.3.220.9:443/?sni=nl1.obxodvpn.us#62@oneclickvpnkeys

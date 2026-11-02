@@ -9,11 +9,18 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🎃62@oneclickvpnkeys
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 177.3.220.9
-  sni: nl1.obxodvpn.us
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 9|🇫🇮204871 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: otwmdcyqh98idcxv
+  password: 0zy7kb86chk9ktbn
+  port: 19883
+  server: dlwww.mymuic.ir
+  skip-cert-verify: false
+  sni: dlwww.mymuic.ir
   tls: false
   type: hysteria2
 - name: 9|🎃44@oneclickvpnkeys
@@ -24,15 +31,7 @@ proxies:
   sni: nl1.obxodvpn.us
   tls: false
   type: hysteria2
-- name: 9|🎃12@oneclickvpnkeys
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 9.247.54.69
-  skip-cert-verify: true
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
-- name: 9|7@oneclickvpnkeys
+- name: 9|⚡7@oneclickvpnkeys
   obfs: salamander
   obfs-password: litevpn
   password: 59018379-d5df-4314-ab23-df0e838d7953
@@ -51,7 +50,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 9|🇺🇸US-@VPNine1
+- name: 9|204811 | ⚡️Telegram = t.me/SOS...
   password: 63e1b9462d708b56d5d5a0267cffecdc
   port: 443
   server: 88.216.195.188
@@ -225,6 +224,14 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
+- name: 9|@FXxNET⚡️
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.188.143
+  skip-cert-verify: true
+  sni: bl1.nexfile.net
+  tls: false
+  type: hysteria2
 - name: 9|🎃93@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
@@ -292,7 +299,7 @@ proxies:
   sni: r5ycmuko.zibayeman.com
   tls: false
   type: hysteria2
-- name: 9|204819 | ⚡️Telegram = t.me/SOS...
+- name: 9|🇫🇮204819 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: fmaznn1lrzys7ddy
@@ -310,7 +317,7 @@ proxies:
   sni: www.docker.com
   tls: false
   type: hysteria2
-- name: 9|🇱204820 | ⚡️Telegram = t.me/SO...
+- name: 9|🇳🇱204820 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
